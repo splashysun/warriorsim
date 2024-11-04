@@ -1163,7 +1163,7 @@ SIM.UI = {
                         <td>${item.mindmg || ''}</td>
                         <td>${item.maxdmg || ''}</td>
                         <td>${item.speed || ''}</td>
-                        <td>${item.skill || ''}</td>
+                        <td>${item.skill || (item.skills && Object.values(item.skills)[0]) || ''}</td>
                         <td>${item.type || ''}</td>
                         <td class="ppm"><p contenteditable="true">${item.proc && item.proc.ppm || ''}</p></td>
                         <td>${item.dps || ''}</td>
@@ -1314,7 +1314,7 @@ SIM.UI = {
                         <td>${item.hit || ''}</td>
                         <td>${item.crit || ''}</td>
                         <td>${item.d || ''}</td>
-                        <td>${item.skill || ''}</td>
+                        <td>${item.skill || (item.skills && Object.values(item.skills)[0]) || ''}</td>
                         <td>${item.type || ''}</td>
                         <td>${item.dps || ''}</td>
                     </tr>`;

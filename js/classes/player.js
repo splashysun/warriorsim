@@ -74,6 +74,12 @@ class Player {
             skill_5: this.level * 5,
             skill_6: this.level * 5,
             skill_7: (this.level < 35 ? 225 : 300),
+            skill_10: 0,
+            skill_11: 0,
+            skill_13: 0,
+            skill_20: 0,
+            skill_21: 0,
+            skill_23: 0,
             haste: 1,
             strmod: 1,
             agimod: 1,
@@ -138,6 +144,7 @@ class Player {
         this.addSpells(testItem);
         this.sortSpells();
         this.addRunes();
+        this.setSkills();
         if (this.talents.flurry) this.auras.flurry = new Flurry(this);
         if (this.talents.deepwounds && this.mode !== 'classic') this.auras.deepwounds = this.mode == "sod" ? new DeepWounds(this) : new OldDeepWounds(this);
         if (this.adjacent && this.talents.deepwounds && this.mode !== 'classic') {
@@ -231,19 +238,13 @@ class Player {
                         }
                     }
                     if (item.skill && item.skill > 0) {
-                        if (item.type == 'Varied') {
-                            this.base['skill_1'] += item.skill;
-                            this.base['skill_2'] += item.skill;
-                            this.base['skill_3'] += item.skill;
-                        }
-                        else if (item.type == 'FistMace') {
-                            this.base['skill_0'] += item.skill;
-                            this.base['skill_4'] += item.skill;
-                        }
-                        else {
-                            let sk = WEAPONTYPE[item.type.replace(' ','').toUpperCase()];
-                            this.base['skill_' + sk] += item.skill;
-                        }
+                        let sk = WEAPONTYPE[item.type.replace(' ','').toUpperCase()];
+                        this.base['skill_' + sk] += item.skill;
+                    }
+                    if (item.skills) {
+                        Object.keys(item.skills).forEach(key => {
+                            this.base['skill_' + key] += item.skills[key];
+                        });
                     }
 
                     if (item.d) this.base.defense += item.d;
@@ -294,37 +295,6 @@ class Player {
                         this.spells.themoltencore = new TheMoltenCore(this);
 
                     this.items.push(item.id);
-                }
-            }
-        }
-
-        if (this.mh && this.mh.twohand) {
-            for (let type in gear) {
-                for (let item of gear[type]) {
-                    if (type != "hands" & type != "waist" && type != "head") continue;
-                    if ((this.testItemType == type && this.testItem == item.id) ||
-                        (this.testItemType != type && item.selected)) {
-                        if (item.skill && item.skill > 0) {
-                            if (item.type == 'Varied') {
-                                this.base['skill_1'] -= item.skill;
-                                this.base['skill_2'] -= item.skill;
-                                this.base['skill_3'] -= item.skill;
-                            }
-                            else if (item.type == 'Varied2H') {
-                                this.base['skill_0'] += item.skill;
-                                this.base['skill_1'] += item.skill;
-                                this.base['skill_3'] += item.skill;
-                            }
-                            else if (item.type == 'FistMace') {
-                                this.base['skill_0'] -= item.skill;
-                                this.base['skill_4'] -= item.skill;
-                            }
-                            else {
-                                let sk = WEAPONTYPE[item.type.replace(' ','').toUpperCase()];
-                                this.base['skill_' + sk] -= item.skill;
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -682,6 +652,11 @@ class Player {
         this.normalspells_c = this.normalspells.length;
         this.executespells_c = this.executespells.length;
 
+    }
+    setSkills() {
+        this.base.skill_0 += this.mh.twohand ? this.base.skill_20 : this.base.skill_10;
+        this.base.skill_1 += this.mh.twohand ? this.base.skill_21 : this.base.skill_11;
+        this.base.skill_3 += this.mh.twohand ? this.base.skill_23 : this.base.skill_13;
     }
     reset(rage) {
         this.rage = rage;

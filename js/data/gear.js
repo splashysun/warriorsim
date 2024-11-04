@@ -113,14 +113,15 @@ var gear = {
       "sta": 38,
       "agi": 21,
       "ac": 175,
-      "skill": 6,
-      "type": "Dagger",
       "source": "Emeriss",
       "phase": 4,
       "id": 20623,
       "q": "4",
       "i": "72",
-      "p": "inv_helmet_17"
+      "p": "inv_helmet_17",
+      "skills": {
+        "2": 6
+      }
     },
     {
       "name": "Conqueror's Crown",
@@ -168,14 +169,15 @@ var gear = {
       "sta": 6,
       "agi": 5,
       "ac": 95,
-      "skill": 7,
-      "type": "Axe",
       "source": "Other",
       "phase": 1,
       "id": 9375,
       "q": "3",
       "i": "38",
-      "p": "inv_helmet_18"
+      "p": "inv_helmet_18",
+      "skills": {
+        "13": 7
+      }
     },
     {
       "name": "Fury Visor",
@@ -2447,14 +2449,15 @@ var gear = {
       "str": 15,
       "sta": 15,
       "ac": 130,
-      "skill": 5,
-      "type": "Dagger",
       "source": "MC",
       "phase": 1,
       "id": 18823,
       "q": "4",
       "i": "69",
-      "p": "inv_gauntlets_23"
+      "p": "inv_gauntlets_23",
+      "skills": {
+        "2": 3
+      }
     },
     {
       "name": "Devilsaur Gauntlets",
@@ -2472,14 +2475,17 @@ var gear = {
     {
       "name": "Edgemaster's Handguards",
       "ac": 201,
-      "skill": 7,
-      "type": "Varied",
       "source": "Other",
       "phase": 1,
       "id": 14551,
       "q": "4",
       "i": "49",
-      "p": "inv_gauntlets_30"
+      "p": "inv_gauntlets_30",
+      "skills": {
+        "2": 7,
+        "11": 7,
+        "13": 7
+      }
     },
     {
       "name": "Flameguard Gauntlets",
@@ -2955,14 +2961,15 @@ var gear = {
       "crit": 1,
       "sta": 16,
       "ac": 98,
-      "skill": 5,
-      "type": "Dagger",
       "source": "Dungeon",
       "phase": 2,
       "id": 18505,
       "q": "3",
       "i": "62",
-      "p": "inv_belt_02"
+      "p": "inv_belt_02",
+      "skills": {
+        "2": 3
+      },
     },
     {
       "name": "Omokk's Girth Restrainer",

@@ -124,15 +124,22 @@
                   if (e.Effect == 6 && e.EffectAura == 71)
                     obj.spellcrit = parseInt(e.EffectBasePoints) + 1;
                   if (e.Effect == 6 && e.EffectAura == 30 && e["EffectMiscValue[0]"] != 95 && e["EffectMiscValue[0]"] != 226 && e["EffectMiscValue[0]"] != 393 && e["EffectMiscValue[0]"] != 45 && e["EffectMiscValue[0]"] != 46) {
-                    obj.skill = parseInt(e.EffectBasePoints) + 1;
-                    if (item.ClassID != "2") {
-                      if (item.ID == 14551) obj.type = "Varied";
-                      else if (item.ID == 215380) obj.type = "Varied2H";
-                      else if (item.ID == 213278) obj.type = "FistMace";
-                      else if (e["EffectMiscValue[0]"] == 44) obj.type = "Axe";
-                      else if (e["EffectMiscValue[0]"] == 173) obj.type = "Dagger";
-                      else if (e["EffectMiscValue[0]"] == 43) obj.type = "Sword";
-                      else delete obj.skill;
+                    
+                    let id;
+                    if (e["EffectMiscValue[0]"] == 173) id = 2;
+                    if (e["EffectMiscValue[0]"] == 162) id = 4;
+                    if (e["EffectMiscValue[0]"] == 136) id = 6;
+                    if (e["EffectMiscValue[0]"] == 229) id = 5;
+                    if (e["EffectMiscValue[0]"] == 44) id = 13;
+                    if (e["EffectMiscValue[0]"] == 43) id = 11;
+                    if (e["EffectMiscValue[0]"] == 54) id = 10;
+                    if (e["EffectMiscValue[0]"] == 172) id = 23;
+                    if (e["EffectMiscValue[0]"] == 55) id = 21;
+                    if (e["EffectMiscValue[0]"] == 160) id = 20;
+                    if (e["EffectMiscValue[0]"] == 356) id = 7;
+                    if (id) {
+                      obj.skills = obj.skills || {};
+                      obj.skills[id] = parseInt(e.EffectBasePoints) + 1;
                     }
                   }
                   if (e.Effect == 6 && e.EffectAura == 564)
@@ -546,7 +553,7 @@
           if (parseInt(sparse.OverallQualityID) >= 3 && obj.type == "Shield") include = true;
           if (parseInt(sparse.OverallQualityID) >= 3 && item.ClassID == "2" && obj.slot != "ranged") include = true;
           if (exclude) continue;
-          if (!include && !obj.proc && !obj.str && !obj.agi && !obj.ap && !obj.crit && !obj.hit && !obj.skill && !obj.d) continue;
+          if (!include && !obj.proc && !obj.str && !obj.agi && !obj.ap && !obj.crit && !obj.hit && !obj.skills && !obj.d) continue;
           if (isUnobtainable(obj.id)) continue;
 
           if (obj.id == 220743 || obj.id == 220747 || obj.id == 220738) obj.name += ' (with proc)';

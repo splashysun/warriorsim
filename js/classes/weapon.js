@@ -7,6 +7,14 @@ var WEAPONTYPE = {
     POLEARM: 5,
     STAFF: 6,
     FISHINGPOLE: 7,
+    MACE_1H: 10,
+    SWORD_1H: 11,
+    AXE_1H: 13,
+    MACE_2H: 20,
+    SWORD_2H: 21,
+    AXE_2H: 23,
+    
+
 }
 
 class Weapon {
