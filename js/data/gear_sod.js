@@ -4003,6 +4003,22 @@ var gear = {
         "frost": 10
       },
       "d": 10
+    },
+    {
+      "id": 234310,
+      "type": "Leather",
+      "slot": "head",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Bramblewood Helm",
+      "p": "inv_helmet_58",
+      "agi": 27,
+      "sta": 20,
+      "resist": {
+        "nature": 30
+      },
+      "hit": 1
     }
   ],
   "neck": [
@@ -15222,32 +15238,6 @@ var gear = {
       "d": 4
     },
     {
-      "id": 20380,
-      "type": "Mail",
-      "slot": "chest",
-      "r": 60,
-      "q": "4",
-      "i": "68",
-      "name": "Dreamscale Breastplate",
-      "p": "inv_chest_plate08",
-      "agi": 15,
-      "sta": 15,
-      "resist": {
-        "nature": 30
-      }
-    },
-    {
-      "id": 20479,
-      "type": "Mail",
-      "slot": "chest",
-      "r": 57,
-      "q": "3",
-      "i": "62",
-      "name": "Spitfire Breastplate",
-      "p": "inv_chest_leather_02",
-      "agi": 16
-    },
-    {
       "id": 20575,
       "type": "Leather",
       "slot": "chest",
@@ -15393,21 +15383,6 @@ var gear = {
         "frost": 42
       },
       "d": 8
-    },
-    {
-      "id": 22762,
-      "type": "Plate",
-      "slot": "chest",
-      "r": 60,
-      "q": "3",
-      "i": "70",
-      "name": "Ironvine Breastplate",
-      "p": "inv_chest_plate07",
-      "sta": 15,
-      "resist": {
-        "nature": 30
-      },
-      "d": 7
     },
     {
       "id": 23087,
@@ -16185,6 +16160,71 @@ var gear = {
       },
       "hit": 1,
       "d": 10
+    },
+    {
+      "id": 234292,
+      "type": "Plate",
+      "slot": "chest",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Ironvine Breastplate",
+      "p": "inv_chest_plate07",
+      "str": 21,
+      "sta": 25,
+      "resist": {
+        "nature": 30
+      },
+      "hit": 1,
+      "d": 7
+    },
+    {
+      "id": 234298,
+      "type": "Mail",
+      "slot": "chest",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Sandstalker Breastplate",
+      "p": "inv_chest_plate07",
+      "agi": 20,
+      "sta": 12,
+      "resist": {
+        "nature": 30
+      },
+      "hit": 1,
+      "ap": 40
+    },
+    {
+      "id": 234304,
+      "type": "Mail",
+      "slot": "chest",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Spitfire Breastplate",
+      "p": "inv_chest_leather_02",
+      "sta": 16,
+      "resist": {
+        "nature": 30
+      },
+      "hit": 1
+    },
+    {
+      "id": 234324,
+      "type": "Mail",
+      "slot": "chest",
+      "r": 60,
+      "q": "4",
+      "i": "80",
+      "name": "Dreamscale Breastplate",
+      "p": "inv_chest_plate08",
+      "sta": 7,
+      "resist": {
+        "nature": 30
+      },
+      "crit": 2,
+      "ap": 50
     }
   ],
   "wrist": [
@@ -20011,6 +20051,22 @@ var gear = {
       "str": 12,
       "sta": 20,
       "d": 7
+    },
+    {
+      "id": 234294,
+      "type": "Mail",
+      "slot": "wrist",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Sandstalker Bracers",
+      "p": "inv_bracer_12",
+      "agi": 10,
+      "sta": 11,
+      "resist": {
+        "nature": 20
+      },
+      "hit": 1
     }
   ],
   "hands": [
@@ -25197,17 +25253,6 @@ var gear = {
       "sta": 7
     },
     {
-      "id": 20480,
-      "type": "Mail",
-      "slot": "hands",
-      "r": 57,
-      "q": "3",
-      "i": "62",
-      "name": "Spitfire Gauntlets",
-      "p": "inv_gauntlets_11",
-      "agi": 12
-    },
-    {
       "id": 20630,
       "type": "Plate",
       "slot": "hands",
@@ -25365,21 +25410,6 @@ var gear = {
         "frost": 32
       },
       "d": 5
-    },
-    {
-      "id": 22763,
-      "type": "Plate",
-      "slot": "hands",
-      "r": 60,
-      "q": "3",
-      "i": "70",
-      "name": "Ironvine Gloves",
-      "p": "inv_gauntlets_29",
-      "sta": 10,
-      "resist": {
-        "nature": 20
-      },
-      "d": 10
     },
     {
       "id": 23078,
@@ -26168,6 +26198,54 @@ var gear = {
       },
       "hit": 1,
       "d": 9
+    },
+    {
+      "id": 234290,
+      "type": "Plate",
+      "slot": "hands",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Ironvine Gloves",
+      "p": "inv_gauntlets_29",
+      "str": 10,
+      "sta": 25,
+      "resist": {
+        "nature": 20
+      },
+      "d": 9
+    },
+    {
+      "id": 234296,
+      "type": "Mail",
+      "slot": "hands",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Sandstalker Gauntlets",
+      "p": "inv_gauntlets_11",
+      "agi": 12,
+      "sta": 10,
+      "resist": {
+        "nature": 25
+      },
+      "hit": 1,
+      "ap": 34
+    },
+    {
+      "id": 234302,
+      "type": "Mail",
+      "slot": "hands",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Spitfire Gauntlets",
+      "p": "inv_gauntlets_11",
+      "sta": 12,
+      "resist": {
+        "nature": 25
+      },
+      "hit": 1
     },
     {
       "id": "213319a",
@@ -31232,29 +31310,6 @@ var gear = {
       "ap": 24
     },
     {
-      "id": 22195,
-      "type": "Mail",
-      "slot": "waist",
-      "r": 60,
-      "q": "3",
-      "i": "68",
-      "name": "Light Obsidian Belt",
-      "p": "inv_belt_16",
-      "ap": 32,
-      "crit": 1
-    },
-    {
-      "id": 22197,
-      "type": "Plate",
-      "slot": "waist",
-      "r": 60,
-      "q": "3",
-      "i": "68",
-      "name": "Heavy Obsidian Belt",
-      "p": "inv_belt_16",
-      "str": 25
-    },
-    {
       "id": 22242,
       "type": "Mail",
       "slot": "waist",
@@ -31292,21 +31347,6 @@ var gear = {
       "sta": 26,
       "block": 18,
       "d": 9
-    },
-    {
-      "id": 22764,
-      "type": "Plate",
-      "slot": "waist",
-      "r": 60,
-      "q": "3",
-      "i": "70",
-      "name": "Ironvine Belt",
-      "p": "inv_belt_21",
-      "sta": 12,
-      "resist": {
-        "nature": 15
-      },
-      "d": 3
     },
     {
       "id": 209421,
@@ -31944,6 +31984,70 @@ var gear = {
       },
       "hit": 1,
       "d": 7
+    },
+    {
+      "id": 234288,
+      "type": "Plate",
+      "slot": "waist",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Ironvine Belt",
+      "p": "inv_belt_21",
+      "str": 13,
+      "sta": 20,
+      "resist": {
+        "nature": 25
+      },
+      "d": 7
+    },
+    {
+      "id": 234306,
+      "type": "Leather",
+      "slot": "waist",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Bramblewood Belt",
+      "p": "inv_belt_17",
+      "sta": 14,
+      "resist": {
+        "nature": 25
+      },
+      "hit": 1,
+      "ap": 40
+    },
+    {
+      "id": 234319,
+      "type": "Plate",
+      "slot": "waist",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Heavy Obsidian Belt",
+      "p": "inv_belt_16",
+      "str": 25,
+      "sta": 9,
+      "resist": {
+        "nature": 25
+      }
+    },
+    {
+      "id": 234321,
+      "type": "Mail",
+      "slot": "waist",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Light Obsidian Belt",
+      "p": "inv_belt_16",
+      "sta": 11,
+      "resist": {
+        "nature": 25
+      },
+      "hit": 1,
+      "crit": 1,
+      "ap": 28
     }
   ],
   "legs": [
@@ -42082,6 +42186,22 @@ var gear = {
       "sta": 12,
       "resist": {
         "nature": 20
+      },
+      "hit": 1
+    },
+    {
+      "id": 234308,
+      "type": "Leather",
+      "slot": "feet",
+      "r": 60,
+      "q": "4",
+      "i": "75",
+      "name": "Bramblewood Boots",
+      "p": "inv_boots_cloth_04",
+      "agi": 22,
+      "sta": 10,
+      "resist": {
+        "nature": 25
       },
       "hit": 1
     }
