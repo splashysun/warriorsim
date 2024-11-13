@@ -25121,6 +25121,7 @@ ID,Name_lang
 446637,Weapon Cleaning Cloth
 446639,Dessicated Dreams
 446640,Cleaned
+446658,S03 - Tuning and Overrides Passive - Warrior
 446660,Blood Ritual
 446661,Animate Flame
 446662,Blood Ritual
@@ -26663,7 +26664,7 @@ ID,Name_lang
 465273,(DNT) Core Hound Summon Stalker
 465323,Combat Pulse
 465352,Banish
-471050,[DNT] Combat Check
+465404,Molten to the Core
 465411,Avenging Strike
 465412,Add Holy Dam - Weap 04
 465414,Crusader's Zeal
@@ -27498,6 +27499,15 @@ ID,Name_lang
 470280,Umbral Slash
 470317,DNT
 470338,[DNT] Effect
+470345,First Aid
+470348,Dense Runecloth Bandage
+470349,Dense Runecloth Bandage
+470358,Recipe: Darkclaw Bisque
+470359,Darkclaw Bisque
+470361,Increased Spell Damage
+470367,Increased Healing Power
+470370,Smoked Redgill
+470396,Recipe: Smoked Redgill
 470451,Portal Effect: Stormwind
 470454,DNT
 470455,[DNT] Effect
@@ -27532,6 +27542,7 @@ ID,Name_lang
 470856,DNT
 470866,Lightning Cloud
 470868,Wisp Costume
+471050,[DNT] Combat Check
 471051,[DNT] Combat Check
 471056,[DNT] Riosustrasz Fight Initialization
 471149,Out of Bounds
@@ -27542,19 +27553,336 @@ ID,Name_lang
 471401,Magnificent Trollshine
 471402,Increase Spell Dam 36 and 1% Crit
 471487,Peregrine
+471513,(DNT) Darkness Test
+471514,(DNT) Darkness Test - Fog of War
+471516,(DNT) Darkness Test - Within Light
 471535,[DNT]
 471570,Shadowflame Visual [DNT]
 471695,Dummy Test Visual Proc Driver [DNT]
+471698,Soul of the Demon
+471699,Zila Amanemodas
 472229,Controller Timer
 472508,[DNT] Essence of Fire
 472512,(DNT) Update Tap List
-446658,S03 - Tuning and Overrides Passive - Warrior
+472642,Gilded Scarab Visual
+472674,Break Targeting
+472686,Treasure Scarab Retreat
+472692,Escape!
+472709,Retreat Fanfare
+472717,Treasure Scarab - Spawn
 472870,Squall
+472891,Gobmogrified
+472900,[DNT] Teleport to BWL GY
+473384,Summon Squire
+473387,Horn of the Dawn
+473399,Songflower Serenade
+473403,Blessing of Neptulon
+473441,Might of Blackrock
+473450,Dark Fortune of Damage
+473466,Firewater Cauldron
+473469,Cleansed Firewater
+473476,Spirit of Zandalar
+473477,Songflower Serenade
+473482,Elemental Disjunction
+473493,Explosive Sand Trap
+473496,Explosive Sand Trap
+473525,Freez-O-Matic Ray
+473544,Sneaking
+473561,Lasso
+473568,Lasso
+473570,Lasso
+473666,Argent Dawn
+473687,Argent Dawn
+473698,Combat Training
+473701,Taunt
+473702,Summon Ancient
+473847,Summon Light Green Qiraji Battle Tank
+473848,Summon Light Green Qiraji Battle Tank
+473849,Gilded Demise
+473853,Summon Light Green Qiraji Battle Tank
+473855,Summon Light Green Qiraji Battle Tank
+473856,Summon Dark Blue Qiraji Battle Tank
+473858,Summon Dark Blue Qiraji Battle Tank
+473859,Summon Dark Blue Qiraji Battle Tank
+473860,Summon Dark Blue Qiraji Battle Tank
+473862,Summon Light Blue Qiraji Battle Tank
+473869,Summon Light Blue Qiraji Battle Tank
+473870,Summon Light Blue Qiraji Battle Tank
+473871,Summon Light Blue Qiraji Battle Tank
+473872,Summon Orange Qiraji Battle Tank
+473874,Summon Orange Qiraji Battle Tank
+473875,Summon Orange Qiraji Battle Tank
+473877,Summon Orange Qiraji Battle Tank
+473881,Summon Twilight Qiraji Battle Tank
+473882,Summon Twilight Qiraji Battle Tank
+473886,Summon Twilight Qiraji Battle Tank
+473887,Summon Twilight Qiraji Battle Tank
+473900,Summon Tamed Silithid Tank
+474116,Amulet of Fowl Warding
+474126,Immersed
+474127,Immersion
+474142,Swarming Thoughts
+474146,Swarming Thoughts
+474148,Swarming Thoughts
+474196,Qiraji Prophets
+474198,Visions of the Prophet
+474204,Mind Flay
+474210,Qiraji Prophets
+474214,Visions of the Prophet
+474220,Aggro
+474232,Staff of the Qiraji Prophets Unequip
+474236,Blessing of Ji'zhi
+474268,Mind Flay
+474386,PvP Trinket
+474400,Cause Insanity
+474402,Mind Blast
+474444,Thundercrash
+474500,Choose Random Powers
+474553,Anubisath Guardian Targeted
+474564,Thunder
+474565,Shadow
+474570,Fire
+474571,Plague
 474727,Hybrid Healing/Spell Dam 144/47
+474742,Tail Sweep
+1213144,Bottomless Noggenfogger Elixir
+1213145,Censer of the False Prophet
+1213146,Destroy Bijou
+1213147,Healing of the Ages
+1213155,Volatile Infection
+1213159,S03 - Item - TAQ - Druid - Restoration 2P Bonus
+1213160,S03 - Item - TAQ - Druid - Restoration 4P Bonus
+1213163,Genesis
+1213164,S03 - Item - TAQ - Druid - Balance 2P Bonus
+1213165,Emeriss Aura
+1213166,Summon Putrid Mushroom
+1213167,S03 - Item - TAQ - Druid - Balance 4P Bonus
+1213169,Spore Cloud
+1213170,Noxious Breath
+1213171,S03 - Item - TAQ - Druid - Feral 2P Bonus
+1213172,Death Aura
+1213174,S03 - Item - TAQ - Druid - Feral 4P Bonus
+1213175,Volatile Infection
+1213176,Tooth and Claw
+1213177,Tooth and Claw
+1213188,S03 - Item - TAQ - Druid - Guardian 2P Bonus
+1213190,Animal Fury
+1213196,S03 - Item - TAQ - Druid - Guardian 4P Bonus
+1213201,S03 - Item - RAQ - Druid - Feral 3P Bonus
+1213209,Mercurial Shield
+1213210,Mercurial Shield
+1213211,Mercurial Shield
+1213221,Mercurial Shield
+1213232,Necklace of Purity
+1213234,Recomposed
+1213238,Resolve of the Battleguard
+1213240,Resolve of the Battleguard
+1213241,Resolve of the Battleguard
+1213246,S03 - Item - TAQ - Hunter - Ranged 2P Bonus
+1213248,Wrath
+1213250,Starfall
+1213253,Entangling Roots
+1213254,Curse of Despair
+1213255,Curse of Despair
+1213256,Curse of Despair
+1213257,Curse of Decay
+1213258,Curse of Decay
+1213259,Curse of Decay
+1213260,Curse of Madness
+1213261,Curse of Madness
+1213263,Curse of Madness
+1213268,Hunter's Mark
+1213269,Explosive Shot
+1213271,Immolation Trap
+1213272,Shoot
+1213276,Frostbolt
+1213278,Ice Barrier
+1213279,Blizzard
+1213288,Increased Expertise 1
+1213289,Increased Expertise 2
+1213290,Increased Expertise 3
+1213297,Badge of the Swarmguard
+1213298,Holy Light
+1213300,Divine Protection
+1213301,Hammer of Justice
+1213304,Whirlwind
+1213306,S03 - Item - TAQ - Hunter - Ranged 4P Bonus
+1213307,S03 - Item - TAQ - Hunter - Melee 2P Bonus
+1213309,S03 - Item - TAQ - Hunter - Melee 4P Bonus
+1213310,S03 - Item - RAQ - Hunter - Beastmastery 3P Bonus
+1213312,S03 - Item - TAQ - Mage - Arcane 2P Bonus
+1213314,S03 - Item - TAQ - Mage - Arcane 4P Bonus
+1213317,Fire Blast
+1213318,S03 - Item - TAQ - Mage - Fire 2P Bonus
+1213319,S03 - Item - TAQ - Mage - Fire 4P Bonus
+1213321,S03 - Item - RAQ - Mage - Fire 3P Bonus
+1213331,Mana Burn
+1213332,Mind Control
+1213334,Shadowform
+1213335,Earthen Shroud
+1213336,Mind Blast
+1213342,Temp MC test
+1213349,S03 - Item - TAQ - Paladin - Holy 2P Bonus
+1213353,S03 - Item - TAQ - Paladin - Holy 4P Bonus
+1213355,Shock
+1213356,Dominate Mind
+1213362,Test MC
+1213366,Jom Gabbar
+1213367,Jom Gabbar
+1213375,The Burrower's Shell
+1213377,Beacon's Companion
+1213381,Timeworn Strike
+1213390,Timeworn Strike
+1213393,Timeworn Shot
+1213395,Timeworn Shot
+1213397,S03 - Item - TAQ - Paladin - Retribution 2P Bonus
+1213398,Timeworn Spell
+1213405,Timeworn Healing
+1213406,S03 - Item - TAQ - Paladin - Retribution 4P Bonus
+1213407,Timeworn Expertise
+1213408,Blessing of Kings
+1213410,S03 - Item - TAQ - Paladin - Protection 2P Bonus
+1213411,Twisting Nether
+1213412,Twisting Nether
+1213413,S03 - Item - TAQ - Paladin - Protection 4P Bonus
+1213414,Twisting Nether
+1213415,Shielded in Righteousness
+1213417,Lightning Strike
+1213418,Lightning Strike
+1213419,Heroism
+1213420,Heroism
+1213421,Aura of the Blue Dragon
+1213422,Aura of the Blue Dragon
+1213441,Sinister Strike
+1213442,Garrote
+1213450,Corruption
+1213451,Rain of Fire
+1213452,Fear
+1213461,Shielded in Righteousness
+1213462,Shield Slam
+1213463,Charge
+1213464,Thunderclap
+1213465,Intimidating Shout
+1213466,Razormane Wolf
+1213467,S03 - Item - RAQ - Paladin - Retribution 3P Bonus
+1213477,Chain Lightning
+1213478,Plans: Razorspike Headcage
+1213479,Lightning Shield
+1213480,Earthbind Totem
+1213481,Razorspike Headcage
+1213482,Flame Shock
+1213483,Plans: Razorspike Shoulderplates
+1213484,Razorspike Shoulderplate
+1213489,Plans: Razorspike Battleplate
+1213490,Razorspike Battleplate
+1213491,Plans: Obsidian Reaver
+1213492,Obsidian Reaver
+1213496,Plans: Obsidian Champion
+1213498,Obsidian Champion
+1213499,Plans: Obsidian Destroyer
+1213500,Obsidian Destroyer
+1213501,Plans: Obsidian Stormhammer
+1213502,Obsidian Stormhammer
+1213503,Plans: Obsidian Sageblade
+1213504,Obsidian Sageblade
+1213505,Plans: Obsidian Defender
+1213506,Obsidian Defender
+1213509,Pattern: Glowing Chitin Armor Kit
+1213513,Glowing Chitin Armor Kit
+1213518,Pattern: Sharpened Chitin Armor Kit
+1213519,Sharpened Chitin Armor Kit
+1213520,Pattern: Razorbramble Cowl
+1213521,Razorbramble Cowl
+1213522,Pattern: Razorbramble Shoulderpads
+1213523,Razorbramble Shoulderpads
+1213524,Pattern: Razorbramble Leathers
+1213525,Razorbramble Leathers
+1213526,Pattern: Vampiric Cowl
+1213527,Vampiric Cowl
+1213529,Pattern: Vampiric Shawl
+1213530,Vampiric Shawl
+1213531,Pattern: Vampiric Robe
+1213532,Vampiric Robe
+1213533,Pattern: Qiraji Silk Scarf
+1213534,Qiraji Silk Scarf
+1213536,Qiraji Silk Cape
+1213537,Pattern: Qiraji Silk Cape
+1213538,Qiraji Silk Cloak
+1213539,Pattern: Qiraji Silk Cloak
+1213540,Qiraji Silk Drape
+1213541,Pattern: Qiraji Silk Drape
+1213544,Flask of Unyielding Sorrow
+1213545,Recipe: Flask of Unyielding Sorrow
+1213546,Flask of Ancient Knowledge
+1213547,Recipe: Flask of Ancient Knowledge
+1213548,Flask of the Old Gods
+1213550,Recipe: Flask of the Old Gods
+1213552,Flask of Madness
+1213553,Recipe: Flask of Madness
+1213559,Elixir of the Honey Badger
+1213560,Recipe: Elixir of the Honey Badger
+1213563,Elixir of the Mage-Lord
+1213564,Recipe: Elixir of the Mage-Lord
+1213565,Elixir of the Ironside
+1213566,Recipe: Elixir of the Ironside
+1213571,Elixir of Alacrity
+1213572,Recipe: Elixir of Alacrity
+1213573,Arcane Megabomb
+1213575,Schematic: Arcane Megabomb
+1213576,The Fumigator
+1213577,Schematic: The Fumigator
+1213578,Obsidian Bomb
+1213579,Schematic: Obsidian Bomb
+1213586,G00 DV-1B3 Generator
+1213587,Schematic: G00 DV-1B3 Generator
+1213588,Tuned Force Reactive Disk
+1213589,Schematic: Tuned Force Reactive Disk
+1213593,Speedstone
+1213594,Formula: Speedstone
+1213595,Tear of the Dreamer
+1213596,Formula: Tear of the Dreamer
+1213598,Lodestone of Retaliation
+1213599,Formula: Lodestone of Retaliation
+1213600,Enchanted Stopwatch
+1213601,Formula: Enchanted Stopwatch
+1213603,Ruby-Encrusted Broach
+1213604,Formula: Ruby-Encrusted Broach
+1213607,Scroll: Wrath of the Swarm
+1213608,Formula: Scroll: Wrath of the Swarm
+1213610,Enchanted Repellent
+1213611,Formula: Enchanted Repellent
+1213613,Living Stats
+1213616,Enchant Chest - Living Stats
+1213617,Formula: Enchant Chest - Living Stats
+1213619,Increase Holy Dam 20
+1213622,Enchant Gloves - Holy Power
+1213623,Formula: Enchant Gloves - Holy Power
+1213624,S03 - Item - TAQ - Priest - Healer 2P Bonus
+1213625,Increase Arcane Dam 20
+1213626,Enchant Gloves - Arcane Power
+1213627,Formula: Enchant Gloves - Arcane Power
+1213628,Enchanted Prayer Tome
+1213629,Formula: Enchanted Prayer Tome
+1213631,S03 - Item - TAQ - Priest - Healer 4P Bonus
+1213633,Enchanted Totem
+1213634,Formula: Enchanted Totem
+1213635,Enchanted Mushroom
+1213637,Formula: Enchanted Mushroom
+1213638,Smelt Obsidian-Infused Thorium Bar
+1213639,Smelt Obsidian-Infused Thorium Bar
+1213643,Obsidian Grinding Stone
+1213644,Plans: Obsidian Grinding Stone
+1213646,Obsidian Blasting Powder
+1213647,Schematic: Obsidian Blasting Powder
+1213675,S03 - Item - TAQ - Priest - Shadow 2P Bonus
+1213705,S03 - Item - TAQ - Priest - Shadow 4P Bonus
+1213708,S03 - Item - RAQ - Priest - Shadow 3P Bonus
 1213709,Ironvine Belt
 1213710,Plans: Ironvine Belt
 1213711,Ironvine Gloves
 1213712,Plans: Ironvine Gloves
+1213713,S03 - Item - TAQ - Rogue - Damage 2P Bonus
+1213714,S03 - Item - TAQ - Rogue - Damage 4P Bonus
 1213715,Ironvine Breastplate
 1213716,Plans: Ironvine Breastplate
 1213717,Sandstalker Bracers
@@ -27563,6 +27891,7 @@ ID,Name_lang
 1213721,Pattern: Sandstalker Gauntlets
 1213723,Sandstalker Breastplate
 1213724,Pattern: Sandstalker Breastplate
+1213725,Light Column
 1213726,Spitfire Bracers
 1213727,Pattern: Spitfire Bracers
 1213728,Spitfire Gauntlets
@@ -27587,6 +27916,298 @@ ID,Name_lang
 1213749,Plans: Light Obsidian Belt
 1213751,Dreamscale Breastplate
 1213752,Pattern: Dreamscale Breastplate
+1213754,S03 - Item - TAQ - Rogue - Tank 2P Bonus
+1213759,S03 - Item - TAQ - Rogue - Tank 4P Bonus
+1213761,Blood Barrier
+1213762,Blood Barrier
+1213763,S03 - Item - RAQ - Rogue - Damage 3P Bonus
+1213810,S03 - Item - TAQ - Shaman - Restoration 2P Bonus
+1213813,Damage Shield Dmg +100
+1213816,Damage Shield Dmg +80
+1213829,Spell Damage +10
+1213830,Increase Spell Dam 10
+1213833,Damage Shield +20
+1213834,Damage Shield Dmg +20
+1213862,Drain Life
+1213864,Drain Life
+1213873,Drain Life
+1213874,Drain Life
+1213886,Flask of Unyielding Sorrow
+1213892,Flask of Ancient Knowledge
+1213894,S03 - Item - TAQ - Shaman - Restoration 4P Bonus
+1213897,Flask of Madness
+1213900,S03 - Item - TAQ - Shaman - Elemental 2P Bonus
+1213901,Flask of the Old Gods
+1213902,S03 - Item - TAQ - Shaman - Elemental 4P Bonus
+1213904,Elixir of the Honey Badger
+1213910,S03 - Item - TAQ - Shaman - Enhancement 2P Bonus
+1213914,Elixir of the Mage-Lord
+1213915,Burning
+1213916,Burning
+1213917,Elixir of the Ironside
+1213918,S03 - Item - TAQ - Shaman - Enhancement 4P Bonus
+1213922,Elixir of Alacrity
+1213924,Arcane Megabomb
+1213930,S03 - Item - TAQ - Shaman - Tank 2P Bonus
+1213934,Stormbraced
+1213935,The Fumigator
+1213937,S03 - Item - TAQ - Shaman - Tank 4P Bonus
+1213939,Pack Leader
+1213941,Obsidian Edged
+1213946,Obsidian Bomb
+1213955,G00 DV-1B3 Generator
+1213957,S03 - Item - RAQ - Shaman - Elemental 3P Bonus
+1213963,Tuned Force Reactive Disk
+1213964,Tuned Force Reactive Disk
+1213967,Innovation Unleashed
+1213968,Recharging
+1213970,Innovation Unleashed
+1213971,Haste
+1213972,Speed
+1213996,Draw Spirit
+1213997,Shadow Bolt Whirl
+1213998,Summon Spirit Shade
+1214001,Scroll: Wrath of the Swarm
+1214002,Draw Spirit
+1214003,Summon Spirit Shade
+1214004,Enchanted Repellent
+1214006,Increase Spell Dam 45 and 1% Crit
+1214008,Summon Shade of Taerar
+1214010,Summon Shade of Taerar
+1214011,Summon Shade of Taerar
+1214028,Bellowing Roar
+1214029,Arcane Blast
+1214037,Desolation
+1214050,Caustic Emanations
+1214055,Caustic Bolt
+1214058,Enchanted Prayer Tome
+1214059,Enchanted Totem
+1214063,Enchanted Mushroom
+1214069,Obsidian Edged
+1214070,Unyielding Aura
+1214082,Summon Demented Druid Spirit
+1214085,S03 - Item - TAQ - Warlock - Damage 2P Bonus
+1214086,Summon Demented Druid Spirit
+1214087,S03 - Item - TAQ - Warlock - Damage 4P Bonus
+1214088,Infernalist
+1214091,S03 - Item - TAQ - Warlock - Tank 2P Bonus
+1214095,S03 - Item - TAQ - Warlock - Tank 4P Bonus
+1214098,Master Demonologist
+1214100,Master Demonologist
+1214101,Master Demonologist
+1214102,Master Demonologist
+1214115,Obsidian Edged
+1214125,Obsidian Edged
+1214136,Divergent Lightning
+1214137,Obsidian Heartseeker
+1214138,Plans: Obsidian Heartseeker
+1214139,Schematic: Obsidian Shotgun
+1214143,Obsidian Edged
+1214145,Obsidian Shotgun
+1214151,S03 - Item - RAQ - Warlock - Tank 3P Bonus
+1214155,Timeworn Decay
+1214156,Spreading Pain
+1214157,Libram of Purification
+1214158,Libram of Purification
+1214159,S03 - Item - TAQ - Warrior - Damage 2P Bonus
+1214160,S03 - Item - TAQ - Warrior - Tank 2P Bonus
+1214162,S03 - Item - TAQ - Warrior - Tank 4P Bonus
+1214163,S03 - Item - TAQ - Warrior - Damage 4P Bonus
+1214165,S03 - Item - RAQ - Warrior - Tank 3P Bonus
+1214166,Bloodthirsty
+1214168,Occult Poison II
+1214169,Occult Poison II
+1214170,Occult Poison II
+1214171,Occult Poison II
+1214173,Bolt of Qiraji Silk
+1214174,Bolt of Qiraji Silk
+1214179,Furbolg Form
+1214204,Hybrid Healing/Spell Dam 189/63
+1214205,Glimpse of Madness
+1214206,Tentacle Call
+1214208,Drain Life
+1214214,Shard of the Fallen Star
+1214218,Timeworn Expertise
+1214220,Timeworn Healing
+1214223,Shard of the Fallen Star
+1214225,Timeworn Spell
+1214233,Obsidian Insight
+1214239,Timeworn Spell
+1214244,Timeworn Spell
+1214245,Timeworn Spell
+1214256,Plans: Black Grasp of the Destroyer
+1214257,Black Grasp of the Destroyer
+1214258,Mana Drain Trigger
+1214259,Mana Drain
+1214261,Mana Drain
+1214263,Chitinous Spikes
+1214270,Jagged Obsidian Shield
+1214271,Plans: Jagged Obsidian Shield
+1214272,Silence Trigger
+1214273,Silence
+1214274,Obsidian Mail Tunic
+1214275,Plans: Obsidian Mail Tunic
+1214276,Spell Damage Reduction
+1214278,Earthstrike
+1214279,Spell Blasting
+1214280,Spell Blasting
+1214281,Naga Form
+1214283,Swift Spectral Tiger
+1214284,Drakonid Form
+1214285,Improved Shred/Ferocious Bite
+1214286,Improved Swipe/Mangle
+1214289,Idol of Health
+1214290,Idol of Health
+1214292,Totem of Life
+1214293,Totem of Life
+1214294,Totem of Life
+1214295,Improved Wrath/Moonfire
+1214296,Improved Exorcism/Crusader Strike
+1214297,Improved Holy Shock
+1214298,Libram of Sanctity
+1214299,Improved Hammer of the Righteous/Shield of Righteousness
+1214300,Improved Stormstrike/Windfury Weapon
+1214301,Improved Flame Shock/Molten Blast
+1214302,Improved Lightning Bolt/Lava Burst
+1214303,Dreamscale Kilt
+1214304,Pattern: Dreamscale Kilt
+1214305,Pattern: Dreamscale Bracers
+1214306,Dreamscale Bracers
+1214307,Dreamscale Mitts
+1214308,Pattern: Dreamscale Mitts
+1214309,Dreamscale Visor
+1214310,Plans: Dreamscale Visor
+1214376,Increase Spell Dam 81
+1214377,Increase Spell Dam 50
+1214378,Increase Spell Dam 49
+1214379,Increase Spell Dam 54
+1214380,Increase Spell Dam 55
+1214381,Increase Spell Dam 61
+1214382,Increase Spell Dam 62
+1214383,Increase Spell Dam 63
+1214384,Increase Spell Dam 65
+1214385,Increase Spell Dam 67
+1214386,Increase Spell Dam 69
+1214387,Increase Spell Dam 70
+1214388,Increase Spell Dam 82
+1214389,Hybrid Healing/Spell Dam 2/1
+1214390,Hybrid Healing/Spell Dam 4/2
+1214391,Hybrid Healing/Spell Dam 7/3
+1214392,Hybrid Healing/Spell Dam 9/3
+1214393,Hybrid Healing/Spell Dam 11/4
+1214394,Hybrid Healing/Spell Dam 13/5
+1214395,Hybrid Healing/Spell Dam 18/6
+1214397,Hybrid Healing/Spell Dam 20/7
+1214398,Hybrid Healing/Spell Dam 24/8
+1214399,Hybrid Healing/Spell Dam 57/19
+1214400,Hybrid Healing/Spell Dam 73/25
+1214402,Hybrid Healing/Spell Dam 79/27
+1214403,Hybrid Healing/Spell Dam 81/27
+1214405,Hybrid Healing/Spell Dam 86/29
+1214406,Hybrid Healing/Spell Dam 88/30
+1214407,Hybrid Healing/Spell Dam 92/31
+1214408,Hybrid Healing/Spell Dam 95/32
+1214409,Hybrid Healing/Spell Dam 97/32
+1214410,Hybrid Healing/Spell Dam 99/33
+1214411,Hybrid Healing/Spell Dam 101/34
+1214413,Hybrid Healing/Spell Dam 103/35
+1214416,Hybrid Healing/Spell Dam 106/35
+1214417,Hybrid Healing/Spell Dam 108/36
+1214418,Hybrid Healing/Spell Dam 110/37
+1214421,Hybrid Healing/Spell Dam 161/54
+1214422,Hybrid Healing/Spell Dam 153/51
+1214427,Hybrid Healing/Spell Dam 136/45
+1214428,Hybrid Healing/Spell Dam 120/40
+1214432,Hybrid Healing/Spell Dam 112/37
+1214440,Divergent Lightning
+1214451,Spiritual Protection
+1214632,Summon Eye Tentacle
+1214681,[DNT] Despair Illusion
+1214686,Summon Portal Ground State
+1214691,[DNT] Illusion of Despair
+1214725,[DNT] Illusion Selection
+1214727,[DNT] Illusion Selection
+1214777,Illusionary Shatter
+1214789,Summon Eye Tentacle
+1214811,[DNT] Copy
+1214844,[DNT] Copy
+1214851,[DNT] Speed
+1214867,[DNT] Periodic Demon Checker
+1214869,(DNT) Emeriss Faction Check
+1214871,Illusionary Shatter
+1214883,Void-Touched Dummy [DNT]
+1214884,Void-Touched
+1214917,Weapon Damage 02
+1214918,Weapon Damage 01
+1214927,Extra Attack
+1214955,Increase Holy Dam 59
+1214956,Curse of Despair
+1214958,[DNT] Modify Health & Damage
+1215061,[DNT] Curse of Decay
+1215091,Summon Poison Cloud
+1215198,Hybrid Healing/Spell Dam 76/26
+1215202,Noxious Burst
+1215329,Blood Alchemy
+1215358,Spiritual Protection
+1215375,Spirit Shade Visual
+1215377,Acid Blast
+1215378,Blood-Caked Tiger
+1215380,Blood-Caked Raptor
+1215404,Timeworn Pyromancy
+1215405,Timeworn Pyromancy
+1215420,(DNT) Poison Cloud Pool
+1215421,Toxic Pool
+1215425,[DNT] Character Visual
+1215427,[DNT] Gong of Fortune Activate
+1215428,[DNT] Character Visual
+1215429,[DNT] Gong of Fortune Activate
+1215430,[DNT] Character Visual
+1215431,[DNT] Gong of Fortune Activate
+1215432,[DNT] Character Visual
+1215433,[DNT] Gong of Fortune Activate
+1215434,[DNT] Gong of Fortune Activate
+1215435,[DNT] Character Visual
+1215436,[DNT] Character Visual
+1215437,[DNT] Gong of Fortune Activate
+1215438,[DNT] Character Visual
+1215439,[DNT] Gong of Fortune Activate
+1215440,[DNT] Character Visual
+1215441,[DNT] Gong of Fortune Activate
+1215442,[DNT] Character Visual
+1215443,[DNT] Gong of Fortune Activate
+1215444,[DNT] Gong of Fortune Activate
+1215445,[DNT] Character Visual
+1215446,[DNT] Gong of Fortune Activate
+1215447,[DNT] Character Visual
+1215448,[DNT] Character Visual
+1215449,[DNT] Gong of Fortune Activate
+1215450,[DNT] Character Visual
+1215451,[DNT] Gong of Fortune Activate
+1215452,[DNT] Character Visual
+1215453,[DNT] Gong of Fortune Activate
+1215454,[DNT] Gong of Fortune Activate
+1215455,[DNT] Character Visual
+1215456,Dummy Test Visual Proc Driver [DNT]
+1215457,Void-Touched Visual [DNT]
+1215491,[DNT] Madness Tracker
+1215498,Caustic Emanations
+1215506,Plans: Thick Obsidian Breastplate
+1215507,Thick Obsidian Breastplate
+1215508,Obsidian Armor
+1215509,Fire Resistance
+1215510,Frost Resistance
+1215511,Nature Resistance
+1215512,Shadow Resistance
+1215513,Holy Resistance
+1215514,Arcane Resistance
+1215516,[DNT] Find Players
+1215554,Share Health
+1215555,Share Health
+1215557,Share Health
+1215558,Share Health
+1215559,Share Health
+1215578,[DNT] Player Death
+1215625,Spell Warding
 1215635,Enter Dream
 1215639,Exit Dream
 1215685,Enter Dream
@@ -27595,3 +28216,138 @@ ID,Name_lang
 1215699,Exit Dream
 1215700,Exit Dream
 1215701,Exit Dream
+1215736,Viscidus Frost Weakness
+1215737,Viscidus Freeze
+1215739,Summon Hook Tentacle
+1215740,Mind Flay
+1215742,[DNT] Madness Tracker
+1215743,[DNT] Blinding Admiration
+1215744,Blinding Admiration
+1215745,Blinding Admiration
+1215752,Noxious Poison
+1215753,Wyvern Sting
+1215755,Frenzy
+1215756,[DNT] Frenzy Ramp
+1215757,Acid Spit
+1215779,Drain Mana
+1215781,Drain Mana
+1215885,Berserk
+1215888,Poison Bolt
+1216005,Libram of Righteousness
+1216006,Formula: Libram of Righteousness
+1216007,Libram of the Exorcist
+1216008,Formula: Libram of the Exorcist
+1216010,Libram of Sanctity
+1216011,Formula: Libram of Sanctity
+1216014,Totem of Pyroclastic Thunder
+1216015,Formula: Totem of Pyroclastic Thunder
+1216016,Totem of Thunderous Strikes
+1216017,Formula: Totem of Thunderous Strikes
+1216018,Totem of Flowing Magma
+1216019,Formula: Totem of Flowing Magma
+1216020,Idol of Sidereal Wrath
+1216021,Formula: Idol of Sidereal Wrath
+1216022,Idol of Feline Ferocity
+1216023,Formula: Idol of Feline Ferocity
+1216024,Idol of Ursin Power
+1216025,Formula: Idol of Ursin Power
+1216026,Blood Alchemy
+1216027,Blood Alchemy
+1216028,[DNT] Madness Tracker
+1216029,[DNT] Madness Tracker
+1216030,[DNT] Madness Tracker
+1216031,[DNT] Madness Tracker
+1216032,[DNT] Madness Tracker
+1216033,[DNT] Find Players
+1216034,[DNT] Test Sound
+1216043,[DNT] Find Players
+1216047,[DNT] Find Players
+1216049,[DNT] Find Players
+1216051,[DNT] Find Players
+1216053,[DNT] Find Players
+1216119,Dark Offering
+1216141,Summon Mouth Tentacle
+1216183,Enter Dream
+1216208,Portal Effect: Stormwind
+1216252,Portal Effect: Stormwind
+1216261,Portal Effect: Stormwind
+1216264,Portal Effect: Stormwind
+1216267,Portal Effect: Stormwind
+1216272,Portal Effect: Stormwind
+1216279,Portal Effect: Stormwind
+1216287,Elementals Deck
+1216291,Portals Deck
+1216294,Beasts Deck
+1216296,Warlord Deck
+1216303,Portal Effect: Stormwind
+1216319,Void-Touched
+1216327,Void-Touched
+1216337,Enter Dream
+1216340,Void-Touched
+1216341,Enter Dream
+1216343,Enter Dream
+1216345,Enter Dream
+1216346,Enter Dream
+1216347,Enter Dream
+1216348,Enter Dream
+1216349,Void-Touched
+1216350,Void-Touched
+1216353,[DNT] Void-Touched Cover Spell
+1216354,Void-Touched
+1216355,Void-Touched
+1216356,Void-Touched
+1216357,Void-Touched
+1216358,[DNT] Death Aura
+1216359,[DNT] Player Death
+1216360,Void-Touched
+1216361,Void-Touched
+1216362,Void-Touched
+1216363,Void-Touched
+1216364,Void-Touched
+1216365,Void-Touched
+1216366,Void-Touched
+1216367,Void-Touched
+1216368,Void-Touched
+1216369,Void-Touched
+1216370,Void-Touched
+1216371,Void-Touched
+1216372,Void-Touched
+1216373,Void-Touched
+1216374,Void-Touched
+1216375,Void-Touched
+1216376,Void-Touched
+1216377,Void-Touched
+1216378,Void-Touched
+1216379,Void-Touched
+1216380,Void-Touched
+1216381,Void-Touched
+1216382,Void-Touched
+1216383,Void-Touched
+1216384,Void-Touched
+1216385,Void-Touched
+1216386,Void-Touched
+1216387,Void-Touched
+1216388,Void-Touched
+1216389,Void-Touched
+1216390,Void-Touched
+1216436,Summon [DNT]
+1216456,Shadowy Figure Whisper [DNT]
+1216479,Noxious Breath
+1216480,Noxious Breath
+1216481,Noxious Breath
+1216482,Noxious Breath
+1216483,Noxious Breath
+1216484,Noxious Breath
+1216485,Noxious Breath
+1216486,Noxious Breath
+1216487,Noxious Breath
+1216494,[DNT] Dummy Equip Aura
+1216500,Drain Mana
+1216501,Drain Mana
+1216528,[DNT] Teleport to Nightmare Grove Raid Exit (Duskwood)
+1216532,[DNT] Teleport to Twilight Grove Raid
+1216533,[DNT] Teleport to AQ20
+1216535,[DNT] Teleport to Nightmare Grove Raid Exit (Feralas)
+1216536,[DNT] Teleport to Nightmare Grove Raid Exit (Ashenvale)
+1216537,[DNT] Teleport to Nightmare Grove Raid Exit (Hinterlands)
+1216566,Traces of Silithyst
