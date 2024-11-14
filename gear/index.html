@@ -187,6 +187,8 @@
                   if (c.p) obj.proc.ppm = c.p;
                   if (c.c) obj.proc.chance = c.c;
                   if (c.cd) obj.proc.cooldown = c.cd;
+                  if (c.magic) obj.proc.magic = c.magic;
+                  if (c.dmg) obj.proc.dmg = c.dmg;
                 }
               }
             });
@@ -535,6 +537,8 @@
           if (obj.id == 19915) exclude = true;
           if (obj.id == 7713) exclude = true;
           if (obj.id == 7723) exclude = true;
+          if (obj.id == 233603) exclude = true;
+          if (obj.id == 234090) exclude = true;
           
           
           
@@ -912,8 +916,13 @@
         {i:231848,p:0.6},
         {i:231876,p:1.3},
         {i:234990,c:1,cd:200},
+        {i:233801,magic:true,dmg:413},
+        {i:234428,magic:true,dmg:413},
+        {i:233796,magic:true,dmg:413},
+        {i:233491,magic:true,dmg:413},
         
-        
+
+
         
         
       ];

@@ -26480,19 +26480,6 @@ var gear = {
       "tw": true
     },
     {
-      "id": 233603,
-      "type": "Plate",
-      "slot": "hands",
-      "r": 60,
-      "q": "4",
-      "i": "79",
-      "name": "Gauntlets of the Righteous Champion",
-      "p": "inv_gauntlets_26",
-      "sta": 10,
-      "crit": 1,
-      "tw": true
-    },
-    {
       "id": 233613,
       "type": "Mail",
       "slot": "hands",
@@ -26585,19 +26572,6 @@ var gear = {
       "sta": 15,
       "crit": 1,
       "ap": 50
-    },
-    {
-      "id": 234090,
-      "type": "Plate",
-      "slot": "hands",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Gloves of the Swarm",
-      "p": "inv_gauntlets_30",
-      "sta": 8,
-      "crit": 2,
-      "tw": true
     },
     {
       "id": 234102,
@@ -58710,6 +58684,10 @@ var gear = {
       "p": "inv_axe_12",
       "sta": 11,
       "hit": 1,
+      "proc": {
+        "magic": true,
+        "dmg": 413
+      },
       "d": 9
     },
     {
@@ -58807,7 +58785,11 @@ var gear = {
       "p": "inv_sword_17",
       "str": 11,
       "sta": 10,
-      "crit": 1
+      "crit": 1,
+      "proc": {
+        "magic": true,
+        "dmg": 413
+      }
     },
     {
       "id": 234552,
@@ -69864,7 +69846,11 @@ var gear = {
       "p": "inv_sword_17",
       "str": 11,
       "sta": 10,
-      "crit": 1
+      "crit": 1,
+      "proc": {
+        "magic": true,
+        "dmg": 413
+      }
     },
     {
       "id": 234459,
@@ -77877,7 +77863,11 @@ var gear = {
       "maxdmg": 340,
       "p": "inv_axe_09",
       "str": 40,
-      "sta": 30
+      "sta": 30,
+      "proc": {
+        "magic": true,
+        "dmg": 413
+      }
     },
     {
       "id": 233796,
@@ -77891,7 +77881,11 @@ var gear = {
       "mindmg": 117,
       "maxdmg": 176,
       "p": "inv_hammer_25",
-      "str": 40
+      "str": 40,
+      "proc": {
+        "magic": true,
+        "dmg": 413
+      }
     },
     {
       "id": 234542,
