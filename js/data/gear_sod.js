@@ -44053,18 +44053,6 @@ var gear = {
       "d": 5
     },
     {
-      "id": 11824,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 49,
-      "q": "3",
-      "i": "54",
-      "name": "Cyclopean Band",
-      "p": "inv_jewelry_ring_08",
-      "str": 4,
-      "sta": 8
-    },
-    {
       "id": 11862,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45086,18 +45074,6 @@ var gear = {
       "sta": 2
     },
     {
-      "id": 20505,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 50,
-      "q": "3",
-      "i": "52",
-      "name": "Chivalrous Signet",
-      "p": "inv_jewelry_ring_43",
-      "str": 7,
-      "sta": 7
-    },
-    {
       "id": 20721,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45302,41 +45278,6 @@ var gear = {
       "ap": 22
     },
     {
-      "id": 228046,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Don Mauricio's Band of Domination",
-      "p": "inv_jewelry_ring_16",
-      "sta": 5,
-      "crit": 1
-    },
-    {
-      "id": 228047,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Amalgam's Band",
-      "p": "inv_jewelry_ring_19",
-      "sta": 5,
-      "crit": 1
-    },
-    {
-      "id": 228076,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 57,
-      "q": "3",
-      "i": "62",
-      "name": "Burning Ring of Fire",
-      "p": "inv_jewelry_ring_65",
-      "crit": 1
-    },
-    {
       "id": 228080,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45390,29 +45331,6 @@ var gear = {
       "hit": 2
     },
     {
-      "id": 228287,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "77",
-      "name": "Band of Sulfuras",
-      "p": "inv_jewelry_ring_36",
-      "hit": 1
-    },
-    {
-      "id": 228359,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "66",
-      "name": "Ring of Entropy",
-      "p": "inv_jewelry_ring_20",
-      "sta": 8,
-      "crit": 1
-    },
-    {
       "id": 228469,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45436,55 +45354,6 @@ var gear = {
       "sta": 7,
       "crit": 1,
       "ap": 18
-    },
-    {
-      "id": 228675,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Band of Rumination",
-      "p": "inv_jewelry_ring_16",
-      "crit": 1
-    },
-    {
-      "id": 228683,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Rune Band of Wizardry",
-      "p": "inv_jewelry_ring_35",
-      "sta": 7,
-      "hit": 1
-    },
-    {
-      "id": 228687,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 0,
-      "q": "4",
-      "i": "74",
-      "name": "Dragonslayer's Signet",
-      "p": "inv_jewelry_ring_27",
-      "resist": {
-        "fire": 10
-      },
-      "crit": 1
-    },
-    {
-      "id": 230281,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Band of Forced Concentration",
-      "p": "inv_jewelry_ring_34",
-      "sta": 8,
-      "hit": 1
     },
     {
       "id": 230734,
@@ -45633,18 +45502,6 @@ var gear = {
       "d": 10
     },
     {
-      "id": 233569,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "78",
-      "name": "Ring of the Devoured",
-      "p": "inv_jewelry_ring_ahnqiraj_05",
-      "sta": 8,
-      "crit": 1
-    },
-    {
       "id": 233600,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45683,18 +45540,6 @@ var gear = {
       "sta": 12
     },
     {
-      "id": 233648,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "76",
-      "name": "Ritssyn's Ring of Chaos",
-      "p": "inv_jewelry_ring_34",
-      "sta": 6,
-      "crit": 1
-    },
-    {
       "id": 233733,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45721,6 +45566,19 @@ var gear = {
       "ap": 20
     },
     {
+      "id": 234034,
+      "type": "Miscellaneous",
+      "slot": "finger",
+      "r": 60,
+      "q": "4",
+      "i": "80",
+      "name": "Signet Ring of the Bronze Dragonflight",
+      "p": "inv_jewelry_ring_40",
+      "str": 24,
+      "sta": 13,
+      "hit": 1
+    },
+    {
       "id": 234083,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -45732,18 +45590,6 @@ var gear = {
       "sta": 9,
       "hit": 1,
       "ap": 48
-    },
-    {
-      "id": 234101,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Ring of the Desert Winds",
-      "p": "inv_jewelry_ring_ahnqiraj_05",
-      "crit": 1,
-      "hit": 1
     },
     {
       "id": 234155,
@@ -45772,18 +45618,6 @@ var gear = {
       "agi": 21,
       "sta": 13,
       "hit": 1
-    },
-    {
-      "id": 234169,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Mindtear Band",
-      "p": "inv_jewelry_ring_04",
-      "sta": 6,
-      "crit": 1
     },
     {
       "id": 234202,
@@ -45824,29 +45658,6 @@ var gear = {
       "sta": 14,
       "hit": 1,
       "crit": 1
-    },
-    {
-      "id": 234786,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 0,
-      "q": "4",
-      "i": "65",
-      "name": "Band of Earthen Wrath",
-      "p": "inv_jewelry_ring_18",
-      "crit": 1
-    },
-    {
-      "id": 234803,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Ring of the Fallen God",
-      "p": "inv_jewelry_ring_ahnqiraj_02",
-      "sta": 5,
-      "hit": 1
     }
   ],
   "finger2": [
@@ -46354,18 +46165,6 @@ var gear = {
       "d": 5
     },
     {
-      "id": 11824,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 49,
-      "q": "3",
-      "i": "54",
-      "name": "Cyclopean Band",
-      "p": "inv_jewelry_ring_08",
-      "str": 4,
-      "sta": 8
-    },
-    {
       "id": 11862,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -47387,18 +47186,6 @@ var gear = {
       "sta": 2
     },
     {
-      "id": 20505,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 50,
-      "q": "3",
-      "i": "52",
-      "name": "Chivalrous Signet",
-      "p": "inv_jewelry_ring_43",
-      "str": 7,
-      "sta": 7
-    },
-    {
       "id": 20721,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -47603,41 +47390,6 @@ var gear = {
       "ap": 22
     },
     {
-      "id": 228046,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Don Mauricio's Band of Domination",
-      "p": "inv_jewelry_ring_16",
-      "sta": 5,
-      "crit": 1
-    },
-    {
-      "id": 228047,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Amalgam's Band",
-      "p": "inv_jewelry_ring_19",
-      "sta": 5,
-      "crit": 1
-    },
-    {
-      "id": 228076,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 57,
-      "q": "3",
-      "i": "62",
-      "name": "Burning Ring of Fire",
-      "p": "inv_jewelry_ring_65",
-      "crit": 1
-    },
-    {
       "id": 228080,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -47691,29 +47443,6 @@ var gear = {
       "hit": 2
     },
     {
-      "id": 228287,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "77",
-      "name": "Band of Sulfuras",
-      "p": "inv_jewelry_ring_36",
-      "hit": 1
-    },
-    {
-      "id": 228359,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "66",
-      "name": "Ring of Entropy",
-      "p": "inv_jewelry_ring_20",
-      "sta": 8,
-      "crit": 1
-    },
-    {
       "id": 228469,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -47737,55 +47466,6 @@ var gear = {
       "sta": 7,
       "crit": 1,
       "ap": 18
-    },
-    {
-      "id": 228675,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Band of Rumination",
-      "p": "inv_jewelry_ring_16",
-      "crit": 1
-    },
-    {
-      "id": 228683,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 58,
-      "q": "3",
-      "i": "63",
-      "name": "Rune Band of Wizardry",
-      "p": "inv_jewelry_ring_35",
-      "sta": 7,
-      "hit": 1
-    },
-    {
-      "id": 228687,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 0,
-      "q": "4",
-      "i": "74",
-      "name": "Dragonslayer's Signet",
-      "p": "inv_jewelry_ring_27",
-      "resist": {
-        "fire": 10
-      },
-      "crit": 1
-    },
-    {
-      "id": 230281,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Band of Forced Concentration",
-      "p": "inv_jewelry_ring_34",
-      "sta": 8,
-      "hit": 1
     },
     {
       "id": 230734,
@@ -47934,18 +47614,6 @@ var gear = {
       "d": 10
     },
     {
-      "id": 233569,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "78",
-      "name": "Ring of the Devoured",
-      "p": "inv_jewelry_ring_ahnqiraj_05",
-      "sta": 8,
-      "crit": 1
-    },
-    {
       "id": 233600,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -47984,18 +47652,6 @@ var gear = {
       "sta": 12
     },
     {
-      "id": 233648,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "76",
-      "name": "Ritssyn's Ring of Chaos",
-      "p": "inv_jewelry_ring_34",
-      "sta": 6,
-      "crit": 1
-    },
-    {
       "id": 233733,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -48022,6 +47678,19 @@ var gear = {
       "ap": 20
     },
     {
+      "id": 234034,
+      "type": "Miscellaneous",
+      "slot": "finger",
+      "r": 60,
+      "q": "4",
+      "i": "80",
+      "name": "Signet Ring of the Bronze Dragonflight",
+      "p": "inv_jewelry_ring_40",
+      "str": 24,
+      "sta": 13,
+      "hit": 1
+    },
+    {
       "id": 234083,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -48033,18 +47702,6 @@ var gear = {
       "sta": 9,
       "hit": 1,
       "ap": 48
-    },
-    {
-      "id": 234101,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Ring of the Desert Winds",
-      "p": "inv_jewelry_ring_ahnqiraj_05",
-      "crit": 1,
-      "hit": 1
     },
     {
       "id": 234155,
@@ -48073,18 +47730,6 @@ var gear = {
       "agi": 21,
       "sta": 13,
       "hit": 1
-    },
-    {
-      "id": 234169,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "75",
-      "name": "Mindtear Band",
-      "p": "inv_jewelry_ring_04",
-      "sta": 6,
-      "crit": 1
     },
     {
       "id": 234202,
@@ -48125,29 +47770,6 @@ var gear = {
       "sta": 14,
       "hit": 1,
       "crit": 1
-    },
-    {
-      "id": 234786,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 0,
-      "q": "4",
-      "i": "65",
-      "name": "Band of Earthen Wrath",
-      "p": "inv_jewelry_ring_18",
-      "crit": 1
-    },
-    {
-      "id": 234803,
-      "type": "Miscellaneous",
-      "slot": "finger",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Ring of the Fallen God",
-      "p": "inv_jewelry_ring_ahnqiraj_02",
-      "sta": 5,
-      "hit": 1
     }
   ],
   "trinket1": [

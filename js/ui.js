@@ -894,10 +894,12 @@ SIM.UI = {
         obj.reactionmax = view.fight.find('input[name="reactionmax"]').val();
         obj.batching = view.fight.find('select[name="batching"]').val();
         obj.filter_strength = view.main.find('#filter_strength').hasClass('active');
+        obj.filter_timeworn = view.main.find('#filter_timeworn').hasClass('active');
         obj.filter_bear = view.main.find('#filter_bear').hasClass('active');
         obj.filter_tiger = view.main.find('#filter_tiger').hasClass('active');
         obj.filter_green = view.main.find('#filter_green').hasClass('active');
         obj.filter_blue = view.main.find('#filter_blue').hasClass('active');
+        obj.filter_epic = view.main.find('#filter_epic').hasClass('active');
         obj.bleedreduction = view.fight.find('select[name="bleedreduction"]').val();
         obj.spellqueueing = view.fight.find('select[name="spellqueueing"]').val();
         
@@ -978,16 +980,20 @@ SIM.UI = {
         if (!storage.targetlevel) storage.targetlevel = session.targetlevel;
         if (!storage.profilename) storage.profilename = session.profilename;
         if (typeof storage.filter_strength == 'undefined') storage.filter_strength = true;
+        if (typeof storage.filter_timeworn == 'undefined') storage.filter_timeworn = true;
         if (typeof storage.filter_bear == 'undefined') storage.filter_bear = true;
         if (typeof storage.filter_tiger == 'undefined') storage.filter_tiger = true;
         if (typeof storage.filter_green == 'undefined') storage.filter_green = true;
         if (typeof storage.filter_blue == 'undefined') storage.filter_blue = true;
+        if (typeof storage.filter_epic == 'undefined') storage.filter_epic = true;
         globalThis.profilename = storage.profilename;
         globalThis.filter_strength = storage.filter_strength;
         globalThis.filter_bear = storage.filter_bear;
+        globalThis.filter_timeworn = storage.filter_timeworn;
         globalThis.filter_tiger = storage.filter_tiger;
         globalThis.filter_green = storage.filter_green;
         globalThis.filter_blue = storage.filter_blue;
+        globalThis.filter_epic = storage.filter_epic;
 
         if (storage.targetbasearmor === 3731 || storage.targetbasearmor === null)
             storage.targetbasearmor = 3128;
@@ -1092,8 +1098,15 @@ SIM.UI = {
                 (globalThis.filter_strength === false && item.name.toLowerCase().indexOf('of strength') > -1) ||
                 (globalThis.filter_bear === false && item.name.toLowerCase().indexOf('of the bear') > -1) ||
                 (globalThis.filter_green === false && item.q == "2") ||
-                (globalThis.filter_blue === false && item.q == "3"))) {
-                continue;
+                (globalThis.filter_blue === false && item.q == "3") ||
+                (globalThis.filter_epic === false && item.q == "4") ||
+                (globalThis.filter_timeworn === false && item.tw))) {
+                    if (globalThis.filter_timeworn === true && item.tw) {
+                        // show item
+                    }
+                    else {
+                        continue;
+                    }
             }
 
             if (filter) {
@@ -1176,11 +1189,13 @@ SIM.UI = {
         view.tcontainer.append(`<div class="topgear">
             <div class="search"><input name="search" placeholder="Search" />${searchSVG}</div>
             <div class="filters">
+                <label id="filter_timeworn" class="${globalThis.filter_timeworn ? 'active' : ''}">Timeworn</label>
                 <label id="filter_strength" class="${globalThis.filter_strength ? 'active' : ''}">Of Strength</label>
                 <label id="filter_bear" class="${globalThis.filter_bear ? 'active' : ''}">Of the Bear</label>
                 <label id="filter_tiger" class="${globalThis.filter_tiger ? 'active' : ''}">Of the Tiger</label>
                 <label id="filter_green" class="${globalThis.filter_green ? 'active' : ''}">Greens</label>
                 <label id="filter_blue" class="${globalThis.filter_blue ? 'active' : ''}">Blues</label>
+                <label id="filter_epic" class="${globalThis.filter_epic ? 'active' : ''}">Epics</label>
             </div>
         </div>`);
         view.tcontainer.append(table);
@@ -1256,8 +1271,15 @@ SIM.UI = {
                 (globalThis.filter_strength === false && item.name.toLowerCase().indexOf('of strength') > -1) ||
                 (globalThis.filter_bear === false && item.name.toLowerCase().indexOf('of the bear') > -1) ||
                 (globalThis.filter_green === false && item.q == "2") ||
-                (globalThis.filter_blue === false && item.q == "3"))) {
-                continue;
+                (globalThis.filter_blue === false && item.q == "3") ||
+                (globalThis.filter_epic === false && item.q == "4") ||
+                (globalThis.filter_timeworn === false && item.tw))) {
+                    if (globalThis.filter_timeworn === true && item.tw) {
+                        // show item
+                    }
+                    else {
+                        continue;
+                    }
             }
 
             let source = (item.source || "").toLowerCase(), phase = item.phase;
@@ -1327,11 +1349,13 @@ SIM.UI = {
         view.tcontainer.append(`<div class="topgear">
             <div class="search"><input name="search" placeholder="Search" />${searchSVG}</div>
             <div class="filters">
+                <label id="filter_timeworn" class="${globalThis.filter_timeworn ? 'active' : ''}">Timeworn</label>
                 <label id="filter_strength" class="${globalThis.filter_strength ? 'active' : ''}">Of Strength</label>
                 <label id="filter_bear" class="${globalThis.filter_bear ? 'active' : ''}">Of the Bear</label>
                 <label id="filter_tiger" class="${globalThis.filter_tiger ? 'active' : ''}">Of the Tiger</label>
                 <label id="filter_green" class="${globalThis.filter_green ? 'active' : ''}">Greens</label>
                 <label id="filter_blue" class="${globalThis.filter_blue ? 'active' : ''}">Blues</label>
+                <label id="filter_epic" class="${globalThis.filter_epic ? 'active' : ''}">Epics</label>
             </div>
         </div>`);
         view.tcontainer.append(table);

@@ -59,6 +59,7 @@ class Player {
         this.target.mitigation = this.getTargetSpellMitigation();
         this.target.binaryresist = this.getTargetSpellBinaryResist();
         this.target.dodge = 0;
+        this.timeworn = 0;
         this.base = {
             ap: 0,
             agi: 0,
@@ -290,9 +291,19 @@ class Player {
                         this.base['moddmgdone'] += 3;
                     if (item.id == 230003 || item.id == 23000399)
                         this.base['moddmgdone'] += 4;
+                    if (item.id == 233638)
+                        this.base['moddmgdone'] += 3;
+                    if (item.id == 234761)
+                        this.base['moddmgdone'] += 4;
+                    
                     
                     if (item.id == 228122)
                         this.spells.themoltencore = new TheMoltenCore(this);
+
+                    if (item.tw) {
+                        this.timeworn++;
+                        console.log(this.timeworn);
+                    } 
 
                     this.items.push(item.id);
                 }
@@ -616,6 +627,11 @@ class Player {
         this.target.basearmorbuffed = Math.max(this.target.basearmorbuffed, 0);
         if (typeof $ !== 'undefined')
             $("#currentarmor").text(this.target.basearmorbuffed);
+
+        // timeworn
+        if (this.items.includes(234034) || this.items.includes(234202)) {
+            this.base.dmgmod *= (1 + this.timeworn / 100);
+        }
     }
     addSpells(testItem) {
         this.preporder = [];

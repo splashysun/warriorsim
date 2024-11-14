@@ -302,6 +302,10 @@
           if (obj.id == 233639) include = true;
           if (obj.id == 234178) include = true;
           if (obj.id == 234462) include = true;
+          if (obj.id == 234202) include = true;
+          if (obj.id == 234034) include = true;
+          
+          
 
           
           
@@ -482,6 +486,26 @@
           if (obj.id == 233991) exclude = true;
           if (obj.id == 233994) exclude = true;
           if (obj.id == 234779) exclude = true;
+          if (obj.id == 234803) exclude = true;
+          if (obj.id == 233569) exclude = true;
+          if (obj.id == 228287) exclude = true;
+          if (obj.id == 233648) exclude = true;
+          if (obj.id == 230281) exclude = true;
+          if (obj.id == 234101) exclude = true;
+          if (obj.id == 234169) exclude = true;
+          if (obj.id == 228687) exclude = true;
+          if (obj.id == 228359) exclude = true;
+          if (obj.id == 228359) exclude = true;
+          if (obj.id == 234786) exclude = true;
+          if (obj.id == 228046) exclude = true;
+          if (obj.id == 228047) exclude = true;
+          if (obj.id == 228675) exclude = true;
+          if (obj.id == 228683) exclude = true;
+          if (obj.id == 228076) exclude = true;
+          if (obj.id == 11824) exclude = true;
+          if (obj.id == 20505) exclude = true;
+          if (obj.id == 22326) exclude = true;
+          
           
           
           
@@ -735,6 +759,7 @@
         while (i--) {
           if (obj.name == gear[slot][i].name && obj.id > gear[slot][i].id && obj.id > 100000 && obj.r != 25) { 
             if (obj.id == 224409) return;
+            if (gear[slot][i].id == 234034) return; // bronze dragonflight
             if (gear[slot][i].id >= 231031 && gear[slot][i].id <= 231038) return; // draconic wrath
             if (gear[slot][i].id >= 231023 && gear[slot][i].id <= 231030) return; // draconic wrath
             if ([19951,19577,19824,19823,19822].includes(gear[slot][i].id)) return; // Vindicator's Battlegear
