@@ -127,7 +127,10 @@
                   if (e.Effect == 6 && e.EffectAura == 138)
                     obj.haste = parseInt(e.EffectBasePoints) + parseInt(e.EffectDieSides);
                   if (e.Effect == 6 && e.EffectAura == 593)
-                    obj.expertise = Math.abs(e.EffectBasePoints); 
+                    obj.expertise = Math.abs(e.EffectBasePoints);
+                  if (e.Effect == 6 && e.EffectAura == 135)
+                    obj.healing = parseInt(e.EffectBasePoints) + 1;
+                     
                   if (e.Effect == 6 && e.EffectAura == 30 && e["EffectMiscValue[0]"] != 95 && e["EffectMiscValue[0]"] != 226 && e["EffectMiscValue[0]"] != 393 && e["EffectMiscValue[0]"] != 45 && e["EffectMiscValue[0]"] != 46) {
                     
                     let id;
@@ -509,6 +512,29 @@
           if (obj.id == 11824) exclude = true;
           if (obj.id == 20505) exclude = true;
           if (obj.id == 22326) exclude = true;
+          if (obj.id == 3837) exclude = true;
+          if (obj.id == 20622) exclude = true;
+          if (obj.id == 3841) exclude = true;
+          if (obj.id == 3845) exclude = true;
+          if (obj.id == 18312) exclude = true;
+          if (obj.id == 9366) exclude = true;
+          if (obj.id == 3843) exclude = true;
+          if (obj.id == 11749) exclude = true;
+          if (obj.id == 12964) exclude = true;
+          if (obj.id == 3847) exclude = true;
+          if (obj.id == 18692) exclude = true;
+          if (obj.id == 13360) exclude = true;
+          if (obj.id == 17710) exclude = true;
+          if (obj.id == 17719) exclude = true;
+          if (obj.id == 17943) exclude = true;
+          if (obj.id == 13205) exclude = true;
+          if (obj.id == 14528) exclude = true;
+          if (obj.id == 17718) exclude = true;
+          if (obj.id == 17719) exclude = true;
+          if (obj.id == 18485) exclude = true;
+          if (obj.id == 19915) exclude = true;
+          if (obj.id == 7713) exclude = true;
+          if (obj.id == 7723) exclude = true;
           
           
           
@@ -576,6 +602,7 @@
 
            
 
+          if (obj.healing) exclude = true;
           if (parseInt(sparse.OverallQualityID) >= 3 && obj.type == "Shield") include = true;
           if (parseInt(sparse.OverallQualityID) >= 3 && item.ClassID == "2" && obj.slot != "ranged") include = true;
           if (exclude) continue;

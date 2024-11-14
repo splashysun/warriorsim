@@ -296,6 +296,9 @@ class Player {
                         this.base['moddmgdone'] += 3;
                     if (item.id == 234761)
                         this.base['moddmgdone'] += 4;
+                    if (item.id == 234084)
+                        this.base['moddmgdone'] += 3;
+                    
                     
                     
                     if (item.id == 228122)
