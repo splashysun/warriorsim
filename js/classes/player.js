@@ -300,10 +300,7 @@ class Player {
                     if (item.id == 228122)
                         this.spells.themoltencore = new TheMoltenCore(this);
 
-                    if (item.tw) {
-                        this.timeworn++;
-                        console.log(this.timeworn);
-                    } 
+                    if (item.tw) this.timeworn++;
 
                     this.items.push(item.id);
                 }
@@ -629,8 +626,8 @@ class Player {
             $("#currentarmor").text(this.target.basearmorbuffed);
 
         // timeworn
-        if (this.items.includes(234034) || this.items.includes(234202)) {
-            this.base.dmgmod *= (1 + this.timeworn / 100);
+        if (!this.items.includes(234034) && !this.items.includes(234202)) {
+            this.timeworn = 0;
         }
     }
     addSpells(testItem) {
@@ -1568,6 +1565,13 @@ class Player {
                 if (spell) this.extraattacks++;
                 else extras++;
                 /* start-log */ if (this.logging) this.log(`Hakkari set extra attack proc`); /* end-log */
+            }
+            // Timeworn extra
+            if (this.timeworn && !damageSoFar && this.timewornstep != step && rng10k() < this.timeworn * 100) {
+                this.timewornstep = step;
+                if (spell) this.extraattacks++;
+                else extras++;
+                /* start-log */ if (this.logging) this.log(`Timeworn proc`); /* end-log */
             }
             // Blood Surge
             if (this.bloodsurge && (spell instanceof Whirlwind || spell instanceof Bloodthirst || spell instanceof HeroicStrike || spell instanceof QuickStrike) && rng10k() < 3000) {

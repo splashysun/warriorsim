@@ -53,6 +53,7 @@
         await loadTable('SpellShapeshift');
         await loadTable('ShieldBlockValue');
         await loadTable('Icons');
+        let timeworn = [];
 
         for (let item of Item) {
           let obj = {};
@@ -596,7 +597,10 @@
 
           findDupe(obj);
           addToGear(obj);
+          if (obj.tw) timeworn.push(obj.id);
         }
+
+        console.log(timeworn.join(','));
 
         // custom items
         // gear["head"].push({
