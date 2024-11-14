@@ -2990,3 +2990,22 @@ class GrilekGuard extends Aura {
         return this.firstuse && !this.timer && !this.player.itemtimer && step >= this.usestep;
     }
 }
+
+class ObsidianStrength extends Aura {
+    constructor(player, id) {
+        super(player, id);
+        this.duration = 30;
+        this.stats = { str: 120 };
+        this.name = 'Obsidian Strength';
+    }
+}
+
+class ObsidianHaste extends Aura {
+    constructor(player, id) {
+        super(player, id);
+        this.duration = 15;
+        this.stats = { moddmgdone: 20 };
+        this.mult_stats = { haste: 5 };
+        this.name = 'Obsidian Haste';
+    }
+}

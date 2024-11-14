@@ -164,6 +164,12 @@ class Player {
             this.spells.sunderarmor.nocrit = false;
         }
 
+        
+        if (this.items.includes(233490)) {
+            this.auras.obsidianstrength = new ObsidianStrength(this);
+            this.auras.obsidianhaste = new ObsidianHaste(this);
+        } 
+
         this.update();
         if (this.oh)
             this.oh.timer = Math.round(this.oh.speed * 1000 / this.stats.haste / 2);
@@ -897,6 +903,8 @@ class Player {
             this.stats.haste *= (1 + this.auras.jujuflurry.mult_stats.haste / 100);
         if (this.auras.crusaderzeal && this.auras.crusaderzeal.timer)
             this.stats.haste *= (1 + this.auras.crusaderzeal.mult_stats.haste / 100);
+        if (this.auras.obsidianhaste && this.auras.obsidianhaste.timer)
+            this.stats.haste *= (1 + this.auras.obsidianhaste.mult_stats.haste / 100);
 
     }
     updateHasteDamage() {
@@ -931,6 +939,8 @@ class Player {
             taken += this.auras.meltarmor.stats.moddmgtaken;
         if (this.auras.crusaderzeal && this.auras.crusaderzeal.timer)
             bonus += this.auras.crusaderzeal.stats.moddmgdone;
+        if (this.auras.obsidianhaste && this.auras.obsidianhaste.timer)
+            bonus += this.auras.obsidianhaste.stats.moddmgdone;
         this.stats.moddmgdone = this.base.moddmgdone + bonus;
         this.stats.moddmgtaken = this.base.moddmgtaken + taken;
         this.mh.bonusdmg = this.mh.basebonusdmg;
@@ -1133,6 +1143,8 @@ class Player {
         if (this.auras.moonstalkerfury && this.auras.moonstalkerfury.timer) this.auras.moonstalkerfury.step();
         if (this.auras.jujuflurry && this.auras.jujuflurry.timer) this.auras.jujuflurry.step();
         if (this.auras.grilekguard && this.auras.grilekguard.timer) this.auras.grilekguard.step();
+        if (this.auras.obsidianhaste && this.auras.obsidianhaste.timer) this.auras.obsidianhaste.step();
+        if (this.auras.obsidianstrength && this.auras.obsidianstrength.timer) this.auras.obsidianstrength.step();
 
         if (this.mh.windfury && this.mh.windfury.timer) this.mh.windfury.step();
         if (this.trinketproc1 && this.trinketproc1.spell && this.trinketproc1.spell.timer) this.trinketproc1.spell.step();
@@ -1202,6 +1214,8 @@ class Player {
         if (this.auras.wrathwray && this.auras.wrathwray.timer) this.auras.wrathwray.end();
         if (this.auras.jujuflurry && this.auras.jujuflurry.timer) this.auras.jujuflurry.end();
         if (this.auras.grilekguard && this.auras.grilekguard.timer) this.auras.grilekguard.end();
+        if (this.auras.obsidianhaste && this.auras.obsidianhaste.timer) this.auras.obsidianhaste.end();
+        if (this.auras.obsidianstrength && this.auras.obsidianstrength.timer) this.auras.obsidianstrength.end();
         
 
         if (this.mh.windfury && this.mh.windfury.timer) this.mh.windfury.end();
@@ -1581,6 +1595,15 @@ class Player {
                 if (spell) this.extraattacks++;
                 else extras++;
                 /* start-log */ if (this.logging) this.log(`Timeworn proc`); /* end-log */
+            }
+            // Obsidian Champion
+            if (weapon.id == 233490 && rng10k() < weapon.proc1.chance && !(this.timer && this.timer < 1500)) {
+                this.auras.obsidianstrength.use();
+                /* start-log */ if (this.logging) this.log(`${weapon.name} Strength proc`); /* end-log */
+            }
+            if (weapon.id == 233490 && rng10k() < weapon.proc1.chance && !(this.timer && this.timer < 1500)) {
+                this.auras.obsidianhaste.use();
+                /* start-log */ if (this.logging) this.log(`${weapon.name} Haste proc`); /* end-log */
             }
             // Blood Surge
             if (this.bloodsurge && (spell instanceof Whirlwind || spell instanceof Bloodthirst || spell instanceof HeroicStrike || spell instanceof QuickStrike) && rng10k() < 3000) {

@@ -47259,7 +47259,12 @@ var gear = {
       "q": "4",
       "i": "66",
       "name": "Darkmoon Card: Maelstrom",
-      "p": "inv_misc_ticket_tarot_maelstrom_01"
+      "p": "inv_misc_ticket_tarot_maelstrom_01",
+      "proc": {
+        "chance": 2,
+        "magic": true,
+        "dmg": 417
+      }
     },
     {
       "id": 234462,
@@ -47770,7 +47775,12 @@ var gear = {
       "q": "4",
       "i": "66",
       "name": "Darkmoon Card: Maelstrom",
-      "p": "inv_misc_ticket_tarot_maelstrom_01"
+      "p": "inv_misc_ticket_tarot_maelstrom_01",
+      "proc": {
+        "chance": 2,
+        "magic": true,
+        "dmg": 417
+      }
     },
     {
       "id": 234462,
@@ -77848,7 +77858,11 @@ var gear = {
       "speed": 2,
       "mindmg": 117,
       "maxdmg": 176,
-      "p": "inv_sword_39"
+      "p": "inv_sword_39",
+      "proc": {
+        "magic": true,
+        "dmg": 413
+      }
     },
     {
       "id": 233491,
