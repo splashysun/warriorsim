@@ -3129,19 +3129,6 @@ var gear = {
       "sta": 14
     },
     {
-      "id": 22418,
-      "type": "Plate",
-      "slot": "head",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Dreadnaught Helmet",
-      "p": "inv_helmet_58",
-      "str": 21,
-      "sta": 45,
-      "d": 14
-    },
-    {
       "id": 209690,
       "type": "Mail",
       "slot": "head",
@@ -3229,6 +3216,19 @@ var gear = {
       "name": "Truesilver Filament Coif",
       "p": "inv_belt_28",
       "sta": 8,
+      "crit": 1
+    },
+    {
+      "id": 215161,
+      "type": "Plate",
+      "slot": "head",
+      "r": 40,
+      "q": "4",
+      "i": "45",
+      "name": "Tempered Interference-Negating Helmet",
+      "p": "inv_helmet_49",
+      "str": 20,
+      "sta": 14,
       "crit": 1
     },
     {
@@ -3989,7 +3989,8 @@ var gear = {
       "agi": 19,
       "str": 36,
       "sta": 17,
-      "d": 8
+      "d": 8,
+      "tw": true
     },
     {
       "id": 233653,
@@ -4043,7 +4044,8 @@ var gear = {
       "agi": 30,
       "str": 26,
       "sta": 15,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234107,
@@ -4058,7 +4060,8 @@ var gear = {
       "str": 21,
       "sta": 28,
       "hit": 1,
-      "d": 13
+      "d": 13,
+      "tw": true
     },
     {
       "id": 234120,
@@ -4070,7 +4073,8 @@ var gear = {
       "name": "Helm of the Holy Avenger",
       "p": "inv_helmet_03",
       "sta": 17,
-      "crit": 2
+      "crit": 2,
+      "tw": true
     },
     {
       "id": 234123,
@@ -4082,7 +4086,8 @@ var gear = {
       "name": "Coif of Elemental Fury",
       "p": "inv_helmet_24",
       "sta": 17,
-      "crit": 2
+      "crit": 2,
+      "tw": true
     },
     {
       "id": 234157,
@@ -8416,6 +8421,18 @@ var gear = {
       "rand": 2158
     },
     {
+      "id": 21453,
+      "type": "Plate",
+      "slot": "shoulder",
+      "r": 60,
+      "q": "4",
+      "i": "72",
+      "name": "Mantle of the Horusath",
+      "p": "inv_shoulder_28",
+      "str": 12,
+      "sta": 19
+    },
+    {
       "id": 21683,
       "type": "Plate",
       "slot": "shoulder",
@@ -8441,6 +8458,19 @@ var gear = {
       "sta": 17
     },
     {
+      "id": 21805,
+      "type": "Plate",
+      "slot": "shoulder",
+      "r": 60,
+      "q": "3",
+      "i": "68",
+      "name": "Polished Obsidian Pauldrons",
+      "p": "inv_shoulder_26",
+      "str": 16,
+      "sta": 17,
+      "d": 7
+    },
+    {
       "id": 22241,
       "type": "Leather",
       "slot": "shoulder",
@@ -8452,21 +8482,6 @@ var gear = {
       "agi": 17,
       "str": 11,
       "sta": 7
-    },
-    {
-      "id": 22419,
-      "type": "Plate",
-      "slot": "shoulder",
-      "r": 60,
-      "q": "4",
-      "i": "86",
-      "name": "Dreadnaught Pauldrons",
-      "p": "inv_shoulder_29",
-      "str": 16,
-      "sta": 29,
-      "hit": 1,
-      "block": 21,
-      "d": 9
     },
     {
       "id": 209676,
@@ -9199,7 +9214,8 @@ var gear = {
       "agi": 28,
       "sta": 8,
       "hit": 1,
-      "ap": 40
+      "ap": 40,
+      "tw": true
     },
     {
       "id": 233592,
@@ -9212,7 +9228,8 @@ var gear = {
       "p": "inv_shoulder_30",
       "agi": 30,
       "str": 21,
-      "sta": 11
+      "sta": 11,
+      "tw": true
     },
     {
       "id": 233593,
@@ -9226,7 +9243,8 @@ var gear = {
       "agi": 15,
       "str": 12,
       "sta": 30,
-      "d": 9
+      "d": 9,
+      "tw": true
     },
     {
       "id": 233658,
@@ -9279,7 +9297,8 @@ var gear = {
       "p": "inv_shoulder_29",
       "agi": 25,
       "str": 24,
-      "sta": 11
+      "sta": 11,
+      "tw": true
     },
     {
       "id": 234111,
@@ -9291,7 +9310,8 @@ var gear = {
       "name": "Runic Stone Shoulders",
       "p": "inv_shoulder_18",
       "sta": 24,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234171,
@@ -15875,20 +15895,6 @@ var gear = {
       "sta": 11
     },
     {
-      "id": 22416,
-      "type": "Plate",
-      "slot": "chest",
-      "r": 60,
-      "q": "4",
-      "i": "92",
-      "name": "Dreadnaught Breastplate",
-      "p": "inv_chest_plate02",
-      "str": 21,
-      "sta": 43,
-      "d": 13,
-      "hit": 2
-    },
-    {
       "id": 22661,
       "type": "Leather",
       "slot": "chest",
@@ -16750,7 +16756,8 @@ var gear = {
       "str": 40,
       "sta": 13,
       "crit": 1,
-      "hit": 2
+      "hit": 2,
+      "tw": true
     },
     {
       "id": 233568,
@@ -16763,7 +16770,8 @@ var gear = {
       "p": "inv_chest_cloth_45",
       "agi": 41,
       "str": 24,
-      "sta": 15
+      "sta": 15,
+      "tw": true
     },
     {
       "id": 233591,
@@ -16779,7 +16787,8 @@ var gear = {
       "sta": 18,
       "resist": {
         "nature": 35
-      }
+      },
+      "tw": true
     },
     {
       "id": 233651,
@@ -16819,7 +16828,8 @@ var gear = {
       "p": "inv_chest_leather_07",
       "agi": 21,
       "str": 15,
-      "sta": 30
+      "sta": 30,
+      "tw": true
     },
     {
       "id": 234292,
@@ -20147,19 +20157,6 @@ var gear = {
       "sta": 10
     },
     {
-      "id": 22423,
-      "type": "Plate",
-      "slot": "wrist",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Dreadnaught Bracers",
-      "p": "inv_bracer_15",
-      "str": 14,
-      "sta": 28,
-      "d": 5
-    },
-    {
       "id": 22663,
       "type": "Leather",
       "slot": "wrist",
@@ -20708,7 +20705,8 @@ var gear = {
       "resist": {
         "nature": 15
       },
-      "d": 6
+      "d": 6,
+      "tw": true
     },
     {
       "id": 233610,
@@ -20720,7 +20718,8 @@ var gear = {
       "name": "Hive Defiler Wristguards",
       "p": "inv_bracer_02",
       "agi": 18,
-      "str": 24
+      "str": 24,
+      "tw": true
     },
     {
       "id": 233612,
@@ -20734,7 +20733,8 @@ var gear = {
       "agi": 16,
       "str": 15,
       "sta": 8,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 233727,
@@ -20759,7 +20759,8 @@ var gear = {
       "name": "Sand Reaver Wristguards",
       "p": "inv_bracer_19",
       "agi": 22,
-      "sta": 11
+      "sta": 11,
+      "tw": true
     },
     {
       "id": 234094,
@@ -20772,7 +20773,8 @@ var gear = {
       "p": "inv_bracer_03",
       "agi": 24,
       "str": 10,
-      "sta": 8
+      "sta": 8,
+      "tw": true
     },
     {
       "id": 234103,
@@ -20785,7 +20787,8 @@ var gear = {
       "p": "inv_bracer_19",
       "agi": 13,
       "str": 23,
-      "sta": 9
+      "sta": 9,
+      "tw": true
     },
     {
       "id": 234148,
@@ -26105,6 +26108,18 @@ var gear = {
       "str": 13
     },
     {
+      "id": 21458,
+      "type": "Leather",
+      "slot": "hands",
+      "r": 60,
+      "q": "4",
+      "i": "72",
+      "name": "Gauntlets of New Life",
+      "p": "inv_gauntlets_24",
+      "str": 11,
+      "sta": 19
+    },
+    {
       "id": 22343,
       "type": "Mail",
       "slot": "hands",
@@ -26115,20 +26130,6 @@ var gear = {
       "p": "inv_gauntlets_11",
       "sta": 10,
       "ap": 38
-    },
-    {
-      "id": 22421,
-      "type": "Plate",
-      "slot": "hands",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Dreadnaught Gauntlets",
-      "p": "inv_gauntlets_28",
-      "str": 17,
-      "sta": 27,
-      "d": 9,
-      "block": 21
     },
     {
       "id": 22662,
@@ -26974,7 +26975,8 @@ var gear = {
       "name": "Gloves of Ebru",
       "p": "inv_gauntlets_23",
       "sta": 12,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233560,
@@ -26990,7 +26992,8 @@ var gear = {
         "nature": 25
       },
       "hit": 1,
-      "d": 10
+      "d": 10,
+      "tw": true
     },
     {
       "id": 233564,
@@ -27006,7 +27009,8 @@ var gear = {
       "sta": 17,
       "resist": {
         "nature": 20
-      }
+      },
+      "tw": true
     },
     {
       "id": 233579,
@@ -27019,7 +27023,8 @@ var gear = {
       "p": "inv_gauntlets_17",
       "agi": 22,
       "str": 28,
-      "sta": 6
+      "sta": 6,
+      "tw": true
     },
     {
       "id": 233582,
@@ -27033,7 +27038,8 @@ var gear = {
       "agi": 14,
       "str": 20,
       "sta": 18,
-      "d": 8
+      "d": 8,
+      "tw": true
     },
     {
       "id": 233603,
@@ -27045,7 +27051,8 @@ var gear = {
       "name": "Gauntlets of the Righteous Champion",
       "p": "inv_gauntlets_26",
       "sta": 10,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233604,
@@ -27057,7 +27064,8 @@ var gear = {
       "name": "Gauntlets of Kalimdor",
       "p": "inv_gauntlets_26",
       "sta": 10,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233608,
@@ -27069,7 +27077,8 @@ var gear = {
       "name": "Wasphide Gauntlets",
       "p": "inv_gauntlets_17",
       "sta": 12,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233613,
@@ -27083,7 +27092,8 @@ var gear = {
       "agi": 22,
       "sta": 11,
       "crit": 1,
-      "ap": 42
+      "ap": 42,
+      "tw": true
     },
     {
       "id": 233618,
@@ -27100,7 +27110,8 @@ var gear = {
       "resist": {
         "shadow": 6
       },
-      "d": 7
+      "d": 7,
+      "tw": true
     },
     {
       "id": 233637,
@@ -27114,7 +27125,8 @@ var gear = {
       "str": 34,
       "sta": 10,
       "crit": 1,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234066,
@@ -27129,7 +27141,8 @@ var gear = {
       "str": 11,
       "sta": 24,
       "hit": 1,
-      "d": 7
+      "d": 7,
+      "tw": true
     },
     {
       "id": 234075,
@@ -27143,7 +27156,8 @@ var gear = {
       "str": 15,
       "sta": 18,
       "hit": 2,
-      "d": 11
+      "d": 11,
+      "tw": true
     },
     {
       "id": 234086,
@@ -27168,7 +27182,8 @@ var gear = {
       "name": "Gloves of the Swarm",
       "p": "inv_gauntlets_30",
       "sta": 8,
-      "crit": 2
+      "crit": 2,
+      "tw": true
     },
     {
       "id": 234091,
@@ -27180,7 +27195,8 @@ var gear = {
       "name": "Slimy Scaled Gauntlets",
       "p": "inv_gauntlets_12",
       "sta": 10,
-      "crit": 2
+      "crit": 2,
+      "tw": true
     },
     {
       "id": 234102,
@@ -27192,7 +27208,8 @@ var gear = {
       "name": "Scaled Silithid Gauntlets",
       "p": "inv_gauntlets_10",
       "agi": 35,
-      "sta": 10
+      "sta": 10,
+      "tw": true
     },
     {
       "id": 234290,
@@ -32354,20 +32371,6 @@ var gear = {
       "sta": 9
     },
     {
-      "id": 22422,
-      "type": "Plate",
-      "slot": "waist",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Dreadnaught Waistguard",
-      "p": "inv_belt_27",
-      "str": 20,
-      "sta": 26,
-      "block": 18,
-      "d": 9
-    },
-    {
       "id": 209421,
       "type": "Leather",
       "slot": "waist",
@@ -33015,7 +33018,8 @@ var gear = {
       "p": "inv_belt_18",
       "agi": 19,
       "str": 30,
-      "sta": 11
+      "sta": 11,
+      "tw": true
     },
     {
       "id": 233577,
@@ -33029,7 +33033,8 @@ var gear = {
       "agi": 13,
       "str": 20,
       "sta": 17,
-      "d": 13
+      "d": 13,
+      "tw": true
     },
     {
       "id": 233614,
@@ -33043,7 +33048,8 @@ var gear = {
       "agi": 13,
       "str": 13,
       "sta": 20,
-      "d": 7
+      "d": 7,
+      "tw": true
     },
     {
       "id": 233622,
@@ -33055,7 +33061,8 @@ var gear = {
       "name": "Grasp of the Fallen Emperor",
       "p": "inv_belt_32",
       "sta": 16,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233635,
@@ -33069,7 +33076,8 @@ var gear = {
       "sta": 20,
       "crit": 1,
       "hit": 1,
-      "ap": 60
+      "ap": 60,
+      "tw": true
     },
     {
       "id": 233725,
@@ -33096,7 +33104,8 @@ var gear = {
       "str": 20,
       "sta": 24,
       "block": 23,
-      "d": 7
+      "d": 7,
+      "tw": true
     },
     {
       "id": 234072,
@@ -33108,7 +33117,8 @@ var gear = {
       "name": "Southwind's Grasp",
       "p": "inv_belt_25",
       "sta": 11,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 234110,
@@ -33123,7 +33133,8 @@ var gear = {
       "str": 10,
       "sta": 19,
       "crit": 1,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234288,
@@ -37599,20 +37610,6 @@ var gear = {
       "crit": 1
     },
     {
-      "id": 22417,
-      "type": "Plate",
-      "slot": "legs",
-      "r": 60,
-      "q": "4",
-      "i": "88",
-      "name": "Dreadnaught Legplates",
-      "p": "inv_pants_plate_05",
-      "str": 23,
-      "sta": 37,
-      "d": 13,
-      "block": 32
-    },
-    {
       "id": 22651,
       "type": "Plate",
       "slot": "legs",
@@ -38527,7 +38524,8 @@ var gear = {
       "name": "Legplates of Blazing Light",
       "p": "inv_pants_plate_11",
       "sta": 21,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233584,
@@ -38539,7 +38537,8 @@ var gear = {
       "name": "Scaled Leggings of Qiraji Fury",
       "p": "inv_pants_mail_15",
       "sta": 21,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233595,
@@ -38552,7 +38551,8 @@ var gear = {
       "p": "inv_pants_mail_10",
       "sta": 21,
       "crit": 2,
-      "ap": 64
+      "ap": 64,
+      "tw": true
     },
     {
       "id": 233598,
@@ -38568,7 +38568,8 @@ var gear = {
         "nature": 30
       },
       "hit": 1,
-      "ap": 56
+      "ap": 56,
+      "tw": true
     },
     {
       "id": 233654,
@@ -38596,7 +38597,8 @@ var gear = {
       "agi": 10,
       "str": 32,
       "sta": 15,
-      "crit": 2
+      "crit": 2,
+      "tw": true
     },
     {
       "id": 234087,
@@ -38609,7 +38611,8 @@ var gear = {
       "p": "inv_pants_mail_15",
       "sta": 30,
       "hit": 1,
-      "d": 15
+      "d": 15,
+      "tw": true
     },
     {
       "id": 234088,
@@ -38623,7 +38626,8 @@ var gear = {
       "str": 19,
       "sta": 30,
       "block": 24,
-      "d": 15
+      "d": 15,
+      "tw": true
     },
     {
       "id": 234129,
@@ -42595,19 +42599,6 @@ var gear = {
       "sta": 10
     },
     {
-      "id": 22420,
-      "type": "Plate",
-      "slot": "feet",
-      "r": 60,
-      "q": "4",
-      "i": "86",
-      "name": "Dreadnaught Sabatons",
-      "p": "inv_boots_plate_06",
-      "str": 15,
-      "sta": 34,
-      "d": 9
-    },
-    {
       "id": 22472,
       "type": "Leather",
       "slot": "feet",
@@ -43446,7 +43437,8 @@ var gear = {
       "str": 15,
       "sta": 21,
       "block": 14,
-      "d": 10
+      "d": 10,
+      "tw": true
     },
     {
       "id": 233518,
@@ -43458,7 +43450,8 @@ var gear = {
       "name": "Boots of the Fallen Prophet",
       "p": "inv_boots_chain_06",
       "sta": 10,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 233561,
@@ -43472,7 +43465,8 @@ var gear = {
       "agi": 20,
       "str": 24,
       "sta": 16,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 233590,
@@ -43486,7 +43480,8 @@ var gear = {
       "agi": 10,
       "str": 30,
       "sta": 17,
-      "d": 7
+      "d": 7,
+      "tw": true
     },
     {
       "id": 233652,
@@ -43513,7 +43508,8 @@ var gear = {
       "p": "inv_boots_08",
       "agi": 26,
       "str": 21,
-      "sta": 11
+      "sta": 11,
+      "tw": true
     },
     {
       "id": 234069,
@@ -43526,7 +43522,8 @@ var gear = {
       "p": "inv_boots_chain_11",
       "agi": 32,
       "sta": 11,
-      "crit": 1
+      "crit": 1,
+      "tw": true
     },
     {
       "id": 234095,
@@ -43540,7 +43537,8 @@ var gear = {
       "agi": 20,
       "str": 26,
       "sta": 13,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234098,
@@ -43554,7 +43552,8 @@ var gear = {
       "str": 28,
       "sta": 14,
       "crit": 1,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234099,
@@ -43567,7 +43566,8 @@ var gear = {
       "p": "inv_boots_chain_02",
       "sta": 25,
       "d": 8,
-      "hit": 1
+      "hit": 1,
+      "tw": true
     },
     {
       "id": 234133,

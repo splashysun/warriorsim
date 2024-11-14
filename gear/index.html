@@ -521,6 +521,9 @@
           if (obj.name == "Tempered Dark Iron Boots" && obj.id != 228924) exclude = true;
 
 
+          if (obj.name.indexOf('Dreadnaught') > -1) exclude = true; // Naxx
+
+
 
           
 
@@ -541,8 +544,10 @@
             //if (source.zone == 1977) continue; // Zul'Gurub
             //if (source.zone == 2677) continue; // Blackwing Lair
             //if (source.zone == 3428) continue; // Ahn'Qiraj
-            if (source.zone == 3429) continue; // Ruins of Ahn'Qiraj
+            //if (source.zone == 3429) continue; // Ruins of Ahn'Qiraj
           }
+
+          if (parseInt(sparse.ItemNameDescriptionID) == 14219) obj.tw = true;
          
 
 
