@@ -597,6 +597,20 @@ var buffs = [
       consume: true,
    },
    {
+      id: 233967,
+      name: "Elixir of the Honey Badger",
+      iconname: "inv_potion_109",
+      group: "elixir",
+      agi: 30,
+      crit: 2,
+      minlevel: 60,
+      consume: true,
+      sod: true,
+      resist: {
+         nature: 15
+      }
+   },
+   {
       id: 12451,
       name: "Juju Power",
       iconname: "inv_misc_monsterscales_11",
@@ -716,6 +730,7 @@ var buffs = [
       other: true,
       ap: 50,
       sod: true,
+      group: 'sigil',
    },
    {
       id: 228978,
@@ -725,6 +740,17 @@ var buffs = [
       other: true,
       ap: 30,
       sod: true,
+      group: 'sigil',
+   },
+   {
+      id: 233995,
+      name: "Scroll: Wrath of the Swarm",
+      iconname: "inv_scroll_14",
+      minlevel: 60,
+      other: true,
+      ap: 40,
+      sod: true,
+      group: 'sigil',
    },
    {
       id: 221024,
@@ -861,12 +887,24 @@ var buffs = [
    //    other: true,
    // },
    {
+      id: 233962,
+      name: "Flask of Madness",
+      iconname: "inv_alchemy_endlessflask_06",
+      minlevel: 60,
+      other: true,
+      group: 'flask',
+      ap: 50,
+      sod: true,
+      consume: true
+   },
+   {
       id: 13510,
       name: "Flask of the Titans",
       iconname: "inv_potion_62",
       minlevel: 50,
       other: true,
-      group: 'flask'
+      group: 'flask',
+      consume: true
    },
    {
       id: 13513,
@@ -880,7 +918,8 @@ var buffs = [
          frost: 25,
          nature: 25,
          shadow: 25
-      }
+      },
+      consume: true
    },
    {
       id: 12455,
