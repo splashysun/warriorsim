@@ -33012,7 +33012,7 @@ var gear = {
       "agi": 13,
       "str": 13,
       "sta": 20,
-      "expertise": 1,
+      "expertise": 2,
       "d": 7,
       "tw": true
     },
@@ -80545,7 +80545,7 @@ var gear = {
       "agi": 19,
       "str": 35,
       "sta": 25,
-      "expertise": 1
+      "expertise": 2
     },
     {
       "id": 234987,

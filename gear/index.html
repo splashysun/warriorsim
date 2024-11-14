@@ -127,7 +127,7 @@
                   if (e.Effect == 6 && e.EffectAura == 138)
                     obj.haste = parseInt(e.EffectBasePoints) + parseInt(e.EffectDieSides);
                   if (e.Effect == 6 && e.EffectAura == 593)
-                    obj.expertise = parseInt(e.PvpMultiplier); 
+                    obj.expertise = Math.abs(e.EffectBasePoints); 
                   if (e.Effect == 6 && e.EffectAura == 30 && e["EffectMiscValue[0]"] != 95 && e["EffectMiscValue[0]"] != 226 && e["EffectMiscValue[0]"] != 393 && e["EffectMiscValue[0]"] != 45 && e["EffectMiscValue[0]"] != 46) {
                     
                     let id;
