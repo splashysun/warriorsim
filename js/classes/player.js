@@ -82,6 +82,7 @@ class Player {
             skill_21: 0,
             skill_23: 0,
             haste: 1,
+            expertise: 0,
             strmod: 1,
             agimod: 1,
             dmgmod: 1,
@@ -986,7 +987,7 @@ class Player {
         return Math.max(crit, 0);
     }
     getDodgeChance(weapon) {
-        return Math.max(5 - this.target.dodge + (this.target.defense - this.stats['skill_' + weapon.type]) * 0.1, 0);
+        return Math.max(5 - this.stats.expertise - this.target.dodge + (this.target.defense - this.stats['skill_' + weapon.type]) * 0.1, 0);
     }
     getArmorReduction() {
         if (isNaN(this.target.armor)) this.target.armor = 0;

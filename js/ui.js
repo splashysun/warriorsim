@@ -782,6 +782,7 @@ SIM.UI = {
         view.sidebar.find('#skill').html(player.stats['skill_' + player.mh.type] + ' <small>MH</small>' + (player.oh ? space + player.stats['skill_' + player.oh.type] + ' <small>OH</small>' : ''));
         view.sidebar.find('#hit').html((player.stats.hit || 0) + '%');
         view.sidebar.find('#miss').html(Math.max(player.mh.miss, 0).toFixed(2) + '% <small>1H</small>' + (player.oh ? space + Math.max(player.mh.dwmiss, 0).toFixed(2) + '% <small>DW</small>' : ''));
+        view.sidebar.find('#dodge').html(Math.max(player.mh.dodge, 0).toFixed(2) + '%');
         let mhcrit = player.crit + player.mh.crit;
         let ohcrit = player.crit + (player.oh ? player.oh.crit : 0);
         view.sidebar.find('#crit').html(mhcrit.toFixed(2) + '% <small>MH</small>' + (player.oh ? space + ohcrit.toFixed(2) + '% <small>OH</small>' : ''));

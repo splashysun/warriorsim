@@ -126,6 +126,8 @@
                     obj.spellcrit = parseInt(e.EffectBasePoints) + 1;
                   if (e.Effect == 6 && e.EffectAura == 138)
                     obj.haste = parseInt(e.EffectBasePoints) + parseInt(e.EffectDieSides);
+                  if (e.Effect == 6 && e.EffectAura == 593)
+                    obj.expertise = parseInt(e.PvpMultiplier); 
                   if (e.Effect == 6 && e.EffectAura == 30 && e["EffectMiscValue[0]"] != 95 && e["EffectMiscValue[0]"] != 226 && e["EffectMiscValue[0]"] != 393 && e["EffectMiscValue[0]"] != 45 && e["EffectMiscValue[0]"] != 46) {
                     
                     let id;
@@ -181,6 +183,7 @@
                   obj.proc = obj.proc || {};
                   if (c.p) obj.proc.ppm = c.p;
                   if (c.c) obj.proc.chance = c.c;
+                  if (c.cd) obj.proc.cooldown = c.cd;
                 }
               }
             });
@@ -881,6 +884,7 @@
         {i:230271,p:1},
         {i:231848,p:0.6},
         {i:231876,p:1.3},
+        {i:234990,c:1,cd:200},
         
         
         

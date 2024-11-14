@@ -5631,7 +5631,8 @@ var gear = {
       "p": "inv_jewelry_necklace_ahnqiraj_04",
       "sta": 24,
       "hit": 1,
-      "d": 10
+      "d": 10,
+      "expertise": 1
     },
     {
       "id": 233729,
@@ -9200,6 +9201,7 @@ var gear = {
       "agi": 13,
       "str": 18,
       "sta": 20,
+      "expertise": 1,
       "d": 9
     },
     {
@@ -9258,7 +9260,8 @@ var gear = {
       "agi": 15,
       "str": 29,
       "sta": 10,
-      "hit": 1
+      "hit": 1,
+      "expertise": 1
     },
     {
       "id": 233793,
@@ -16802,7 +16805,8 @@ var gear = {
       "agi": 33,
       "str": 40,
       "sta": 16,
-      "hit": 1
+      "hit": 1,
+      "expertise": 1
     },
     {
       "id": 233813,
@@ -20734,6 +20738,7 @@ var gear = {
       "str": 15,
       "sta": 8,
       "hit": 1,
+      "expertise": 1,
       "tw": true
     },
     {
@@ -20846,7 +20851,8 @@ var gear = {
       "p": "inv_bracer_07",
       "agi": 13,
       "str": 19,
-      "sta": 10
+      "sta": 10,
+      "expertise": 1
     }
   ],
   "hands": [
@@ -26978,6 +26984,7 @@ var gear = {
       "agi": 22,
       "str": 28,
       "sta": 6,
+      "expertise": 1,
       "tw": true
     },
     {
@@ -26992,6 +26999,7 @@ var gear = {
       "agi": 14,
       "str": 20,
       "sta": 18,
+      "expertise": 1,
       "d": 8,
       "tw": true
     },
@@ -27064,6 +27072,7 @@ var gear = {
       "resist": {
         "shadow": 6
       },
+      "expertise": 1,
       "d": 7,
       "tw": true
     },
@@ -27078,6 +27087,7 @@ var gear = {
       "p": "inv_gauntlets_31",
       "str": 34,
       "sta": 10,
+      "expertise": 1,
       "crit": 1,
       "hit": 1,
       "tw": true
@@ -33002,6 +33012,7 @@ var gear = {
       "agi": 13,
       "str": 13,
       "sta": 20,
+      "expertise": 1,
       "d": 7,
       "tw": true
     },
@@ -33028,6 +33039,7 @@ var gear = {
       "name": "Belt of Never-ending Agony",
       "p": "inv_belt_26",
       "sta": 20,
+      "expertise": 1,
       "crit": 1,
       "hit": 1,
       "ap": 60,
@@ -45512,6 +45524,7 @@ var gear = {
       "p": "inv_jewelry_ring_ahnqiraj_01",
       "sta": 10,
       "crit": 1,
+      "expertise": 1,
       "ap": 40
     },
     {
@@ -47624,6 +47637,7 @@ var gear = {
       "p": "inv_jewelry_ring_ahnqiraj_01",
       "sta": 10,
       "crit": 1,
+      "expertise": 1,
       "ap": 40
     },
     {
@@ -48259,6 +48273,7 @@ var gear = {
       "name": "Lodestone of Retaliation",
       "p": "inv_stone_08",
       "sta": 23,
+      "expertise": 1,
       "d": 11
     },
     {
@@ -48769,6 +48784,7 @@ var gear = {
       "name": "Lodestone of Retaliation",
       "p": "inv_stone_08",
       "sta": 23,
+      "expertise": 1,
       "d": 11
     },
     {
@@ -60729,6 +60745,7 @@ var gear = {
       "p": "inv_sword_59",
       "sta": 8,
       "crit": 1,
+      "expertise": 1,
       "ap": 16
     },
     {
@@ -60834,6 +60851,7 @@ var gear = {
       "maxdmg": 152,
       "p": "inv_weapon_shortblade_33",
       "sta": 10,
+      "expertise": 1,
       "ap": 28,
       "skills": {
         "2": 3
@@ -60981,6 +60999,7 @@ var gear = {
       "p": "inv_axe_15",
       "str": 15,
       "sta": 6,
+      "expertise": 1,
       "d": 7
     },
     {
@@ -72228,6 +72247,7 @@ var gear = {
       "p": "inv_sword_59",
       "sta": 8,
       "crit": 1,
+      "expertise": 1,
       "ap": 16
     },
     {
@@ -72286,6 +72306,7 @@ var gear = {
       "maxdmg": 152,
       "p": "inv_weapon_shortblade_33",
       "sta": 10,
+      "expertise": 1,
       "ap": 28,
       "skills": {
         "2": 3
@@ -72404,6 +72425,7 @@ var gear = {
       "p": "inv_axe_15",
       "str": 15,
       "sta": 6,
+      "expertise": 1,
       "d": 7
     }
   ],
@@ -80522,7 +80544,8 @@ var gear = {
       "p": "inv_axe_24",
       "agi": 19,
       "str": 35,
-      "sta": 25
+      "sta": 25,
+      "expertise": 1
     },
     {
       "id": 234987,
@@ -80560,7 +80583,9 @@ var gear = {
       "str": 36,
       "sta": 21,
       "proc": {
-        "extra": 1
+        "extra": 1,
+        "chance": 1,
+        "cooldown": 200
       }
     },
     {
