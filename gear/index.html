@@ -123,6 +123,8 @@
                     obj.crit = parseInt(e.EffectBasePoints) + parseInt(e.EffectDieSides);
                   if (e.Effect == 6 && e.EffectAura == 71)
                     obj.spellcrit = parseInt(e.EffectBasePoints) + 1;
+                  if (e.Effect == 6 && e.EffectAura == 138)
+                    obj.haste = parseInt(e.EffectBasePoints) + parseInt(e.EffectDieSides);
                   if (e.Effect == 6 && e.EffectAura == 30 && e["EffectMiscValue[0]"] != 95 && e["EffectMiscValue[0]"] != 226 && e["EffectMiscValue[0]"] != 393 && e["EffectMiscValue[0]"] != 45 && e["EffectMiscValue[0]"] != 46) {
                     
                     let id;
@@ -295,7 +297,12 @@
           if (obj.id == 15138) include = true;
           if (obj.id == 19951) include = true;
           if (obj.id == 231286) include = true;
-          
+          if (obj.id == 233627) include = true;
+          if (obj.id == 233580) include = true;
+          if (obj.id == 233639) include = true;
+          if (obj.id == 234178) include = true;
+          if (obj.id == 234462) include = true;
+
           
           
           
@@ -470,6 +477,13 @@
           if (obj.id == 20260) exclude = true;
           if (obj.id == 20257) exclude = true;
           if (obj.id == 230810) exclude = true;
+          if (obj.id == 21704) exclude = true;
+          if (obj.id == 20629) exclude = true;
+          if (obj.id == 233991) exclude = true;
+          if (obj.id == 233994) exclude = true;
+          if (obj.id == 234779) exclude = true;
+          
+          
           
           
 
@@ -482,6 +496,10 @@
           if (obj.id == 23206) exclude = true; // REMOVE WHEN NAXX
           if (obj.id == 22691) exclude = true; // REMOVE WHEN NAXX
           if (obj.id == 23071) exclude = true; // REMOVE WHEN NAXX
+          if (obj.id == 22670) exclude = true; // REMOVE WHEN NAXX
+          if (obj.id == 22666) exclude = true; // REMOVE WHEN NAXX
+          if (obj.id == 22662) exclude = true; // REMOVE WHEN NAXX
+          if (obj.name.indexOf('Dreadnaught') > -1) exclude = true; // REMOVE WHEN NAXX
           
           
           
@@ -521,7 +539,8 @@
           if (obj.name == "Tempered Dark Iron Boots" && obj.id != 228924) exclude = true;
 
 
-          if (obj.name.indexOf('Dreadnaught') > -1) exclude = true; // Naxx
+          
+          
 
 
 

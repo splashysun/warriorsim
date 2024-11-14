@@ -517,6 +517,8 @@ class Player {
                     if (bonus.stats.shieldslamcd) this.shieldslamcd = bonus.stats.shieldslamcd;
                     if (bonus.stats.gladbloodrage) this.gladbloodrage = bonus.stats.gladbloodrage;
                     if (bonus.stats.whirlwindcost) this.whirlwindcost = bonus.stats.whirlwindcost;
+                    if (bonus.stats.deathwishcd) this.deathwishcd = bonus.stats.deathwishcd;
+                    if (bonus.stats.bleedbonus) this.bleedbonus = bonus.stats.bleedbonus;
                 }
             }
         }
@@ -938,6 +940,10 @@ class Player {
             if (this.auras[name].timer && this.auras[name].mult_stats.dmgmod)
                 this.stats.dmgmod *= (1 + this.auras[name].mult_stats.dmgmod / 100);
         }
+        if (this.bleedbonus && this.auras.rend && this.auras.rend.timer && this.auras.deepwounds && this.auras.deepwounds.timer) {
+            this.stats.dmgmod *= 1.1;
+        }
+            
     }
     getGlanceReduction(weapon) {
         let diff = this.target.defense - this.stats['skill_' + weapon.type];

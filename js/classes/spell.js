@@ -1039,6 +1039,7 @@ class DeepWounds extends Aura {
             this.nexttick = 0;
             this.firstuse = false;
             this.saveddmg = 0;
+            this.player.updateDmgMod();
             /* start-log */ if (this.player.logging) this.player.log(`${this.name} removed`); /* end-log */
         }
     }
@@ -1054,6 +1055,7 @@ class DeepWounds extends Aura {
             this.timer = this.nexttick - 3000 + this.duration * 1000;
         }
         this.starttimer = step;
+        this.player.updateDmgMod();
         /* start-log */ if (this.player.logging) this.player.log(`${this.name} applied`); /* end-log */
     }
 }
@@ -1165,7 +1167,7 @@ class DeathWish extends Aura {
         super(player, id, 'Death Wish');
         this.duration = 30;
         this.mult_stats = { dmgmod: 20 };
-        this.cooldown = 180;
+        this.cooldown = player.deathwishcd ? 90 : 180;
     }
     use(a, prepull = 0) {
         if (this.timer) this.uptime += (step - this.starttimer);
@@ -1652,7 +1654,7 @@ class Earthstrike extends Aura {
     constructor(player, id) {
         super(player, id);
         this.duration = 20;
-        this.stats = { ap: 280 };
+        this.stats = { ap: this.player.mode == "sod" ? 328 : 280 };
     }
     use(a, prepull = 0) {
         this.player.itemtimer = this.duration * 1000 - prepull;
@@ -1670,11 +1672,12 @@ class Gabbar extends Aura {
     constructor(player, id) {
         super(player, id);
         this.duration = 20;
-        this.stats = { ap: 65 };
         this.name = 'Jom Gabbar';
+        this.value = player.mode == "sod" ? 70 : 65;
+        this.stats = { ap: this.value };
     }
     use(a, prepull = 0) {
-        this.stats.ap = 65;
+        this.stats.ap = this.value;
         this.player.itemtimer = this.duration * 1000 - prepull;
         this.timer = step + this.duration * 1000 - prepull;
         this.starttimer = step - prepull;
@@ -1686,7 +1689,7 @@ class Gabbar extends Aura {
     }
     step() {
         if ((step - this.starttimer) % 2000 == 0) {
-            this.stats.ap += 65;
+            this.stats.ap += this.value;
             this.player.updateAP();
             /* start-log */ if (this.player.logging) this.player.log(`${this.name} tick`); /* end-log */
         }
@@ -1937,6 +1940,7 @@ class Rend extends Aura {
         if (step >= this.timer) {
             this.timer = 0;
             this.firstuse = false;
+            this.player.updateDmgMod();
         }
     }
     use() {
@@ -1969,6 +1973,7 @@ class Rend extends Aura {
         let dmg = basedmg * this.player.stats.dmgmod * this.dmgmod * this.player.bleedmod;
         this.tickdmg = dmg / this.value2;
 
+        this.player.updateDmgMod();
         this.maxdelay = rng(this.player.reactionmin, this.player.reactionmax);
         /* start-log */ if (this.player.logging) this.player.log(`${this.name} applied`); /* end-log */
     }
@@ -1983,6 +1988,7 @@ class Rend extends Aura {
         this.timer = 0;
         this.stacks = 0;
         this.tfbstep = -6000;
+        this.player.updateDmgMod();
     }
     refresh() {
         this.timer = this.nexttick - 3000 + this.duration * 1000;

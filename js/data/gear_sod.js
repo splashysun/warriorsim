@@ -26132,52 +26132,6 @@ var gear = {
       "ap": 38
     },
     {
-      "id": 22662,
-      "type": "Leather",
-      "slot": "hands",
-      "r": 60,
-      "q": "4",
-      "i": "80",
-      "name": "Polar Gloves",
-      "p": "inv_gauntlets_06",
-      "agi": 18,
-      "sta": 18,
-      "resist": {
-        "frost": 30
-      }
-    },
-    {
-      "id": 22666,
-      "type": "Mail",
-      "slot": "hands",
-      "r": 60,
-      "q": "4",
-      "i": "80",
-      "name": "Icy Scale Gauntlets",
-      "p": "inv_gauntlets_28",
-      "sta": 22,
-      "resist": {
-        "frost": 30
-      },
-      "ap": 22
-    },
-    {
-      "id": 22670,
-      "type": "Plate",
-      "slot": "hands",
-      "r": 60,
-      "q": "4",
-      "i": "80",
-      "name": "Icebane Gauntlets",
-      "p": "inv_gauntlets_28",
-      "str": 9,
-      "sta": 18,
-      "resist": {
-        "frost": 32
-      },
-      "d": 5
-    },
-    {
       "id": 23078,
       "type": "Plate",
       "slot": "hands",
@@ -42524,18 +42478,6 @@ var gear = {
       "sta": 4
     },
     {
-      "id": 20629,
-      "type": "Mail",
-      "slot": "feet",
-      "r": 60,
-      "q": "4",
-      "i": "72",
-      "name": "Malignant Footguards",
-      "p": "inv_boots_chain_08",
-      "str": 10,
-      "sta": 12
-    },
-    {
       "id": 20710,
       "type": "Plate",
       "slot": "feet",
@@ -42571,19 +42513,6 @@ var gear = {
       "agi": 19,
       "str": 9,
       "sta": 10
-    },
-    {
-      "id": 21704,
-      "type": "Plate",
-      "slot": "feet",
-      "r": 60,
-      "q": "4",
-      "i": "73",
-      "name": "Boots of the Redeemed Prophecy",
-      "p": "inv_boots_plate_08",
-      "agi": 12,
-      "str": 15,
-      "sta": 15
     },
     {
       "id": 22270,
@@ -48313,21 +48242,6 @@ var gear = {
       "hit": 1
     },
     {
-      "id": 19289,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "66",
-      "name": "Darkmoon Card: Maelstrom",
-      "p": "inv_misc_ticket_tarot_maelstrom_01",
-      "proc": {
-        "magic": true,
-        "dmg": 250,
-        "chance": 2
-      }
-    },
-    {
       "id": 19949,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48358,16 +48272,6 @@ var gear = {
       "p": "inv_drink_01"
     },
     {
-      "id": 21180,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "66",
-      "name": "Earthstrike",
-      "p": "spell_nature_abolishmagic"
-    },
-    {
       "id": 21567,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48390,16 +48294,6 @@ var gear = {
       "sta": 4
     },
     {
-      "id": 21670,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "76",
-      "name": "Badge of the Swarmguard",
-      "p": "inv_misc_ahnqirajtrinket_04"
-    },
-    {
       "id": 22321,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48413,16 +48307,6 @@ var gear = {
         "dmg": 150,
         "chance": 2
       }
-    },
-    {
-      "id": 23570,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "81",
-      "name": "Jom Gabbar",
-      "p": "inv_misc_enggizmos_19"
     },
     {
       "id": 211449,
@@ -48675,6 +48559,26 @@ var gear = {
       "crit": 1
     },
     {
+      "id": 233580,
+      "type": "Miscellaneous",
+      "slot": "trinket",
+      "r": 60,
+      "q": "4",
+      "i": "78",
+      "name": "Badge of the Swarmguard",
+      "p": "inv_misc_ahnqirajtrinket_04"
+    },
+    {
+      "id": 233627,
+      "type": "Miscellaneous",
+      "slot": "trinket",
+      "r": 60,
+      "q": "4",
+      "i": "81",
+      "name": "Jom Gabbar",
+      "p": "inv_misc_enggizmos_19"
+    },
+    {
       "id": 233628,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48685,6 +48589,16 @@ var gear = {
       "p": "inv_shield_23",
       "sta": 20,
       "d": 15
+    },
+    {
+      "id": 233639,
+      "type": "Miscellaneous",
+      "slot": "trinket",
+      "r": 60,
+      "q": "4",
+      "i": "88",
+      "name": "Vanquished Tentacle of C'Thun",
+      "p": "inv_misc_ahnqirajtrinket_05"
     },
     {
       "id": 233649,
@@ -48710,18 +48624,8 @@ var gear = {
       "i": "80",
       "name": "Speedstone",
       "p": "inv_pet_scorchedstone",
-      "crit": 2
-    },
-    {
-      "id": 233991,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "80",
-      "name": "Tear of the Dreamer",
-      "p": "inv_elemental_crystal_life",
-      "hit": 1
+      "crit": 2,
+      "haste": 2
     },
     {
       "id": 233992,
@@ -48736,26 +48640,24 @@ var gear = {
       "d": 11
     },
     {
-      "id": 233994,
+      "id": 234178,
       "type": "Miscellaneous",
       "slot": "trinket",
       "r": 60,
       "q": "4",
-      "i": "80",
-      "name": "Ruby-Encrusted Broach",
-      "p": "inv_jewelry_necklace_15",
-      "crit": 1
+      "i": "66",
+      "name": "Darkmoon Card: Maelstrom",
+      "p": "inv_misc_ticket_tarot_maelstrom_01"
     },
     {
-      "id": 234779,
+      "id": 234462,
       "type": "Miscellaneous",
       "slot": "trinket",
       "r": 0,
       "q": "4",
-      "i": "70",
-      "name": "Grace of Earth",
-      "p": "inv_misc_herb_02",
-      "hit": 2
+      "i": "75",
+      "name": "Earthstrike",
+      "p": "spell_nature_abolishmagic"
     }
   ],
   "trinket2": [
@@ -48850,21 +48752,6 @@ var gear = {
       "hit": 1
     },
     {
-      "id": 19289,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "66",
-      "name": "Darkmoon Card: Maelstrom",
-      "p": "inv_misc_ticket_tarot_maelstrom_01",
-      "proc": {
-        "magic": true,
-        "dmg": 250,
-        "chance": 2
-      }
-    },
-    {
       "id": 19949,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48895,16 +48782,6 @@ var gear = {
       "p": "inv_drink_01"
     },
     {
-      "id": 21180,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "66",
-      "name": "Earthstrike",
-      "p": "spell_nature_abolishmagic"
-    },
-    {
       "id": 21567,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48927,16 +48804,6 @@ var gear = {
       "sta": 4
     },
     {
-      "id": 21670,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "76",
-      "name": "Badge of the Swarmguard",
-      "p": "inv_misc_ahnqirajtrinket_04"
-    },
-    {
       "id": 22321,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -48950,16 +48817,6 @@ var gear = {
         "dmg": 150,
         "chance": 2
       }
-    },
-    {
-      "id": 23570,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "81",
-      "name": "Jom Gabbar",
-      "p": "inv_misc_enggizmos_19"
     },
     {
       "id": 211449,
@@ -49212,6 +49069,26 @@ var gear = {
       "crit": 1
     },
     {
+      "id": 233580,
+      "type": "Miscellaneous",
+      "slot": "trinket",
+      "r": 60,
+      "q": "4",
+      "i": "78",
+      "name": "Badge of the Swarmguard",
+      "p": "inv_misc_ahnqirajtrinket_04"
+    },
+    {
+      "id": 233627,
+      "type": "Miscellaneous",
+      "slot": "trinket",
+      "r": 60,
+      "q": "4",
+      "i": "81",
+      "name": "Jom Gabbar",
+      "p": "inv_misc_enggizmos_19"
+    },
+    {
       "id": 233628,
       "type": "Miscellaneous",
       "slot": "trinket",
@@ -49222,6 +49099,16 @@ var gear = {
       "p": "inv_shield_23",
       "sta": 20,
       "d": 15
+    },
+    {
+      "id": 233639,
+      "type": "Miscellaneous",
+      "slot": "trinket",
+      "r": 60,
+      "q": "4",
+      "i": "88",
+      "name": "Vanquished Tentacle of C'Thun",
+      "p": "inv_misc_ahnqirajtrinket_05"
     },
     {
       "id": 233649,
@@ -49247,18 +49134,8 @@ var gear = {
       "i": "80",
       "name": "Speedstone",
       "p": "inv_pet_scorchedstone",
-      "crit": 2
-    },
-    {
-      "id": 233991,
-      "type": "Miscellaneous",
-      "slot": "trinket",
-      "r": 60,
-      "q": "4",
-      "i": "80",
-      "name": "Tear of the Dreamer",
-      "p": "inv_elemental_crystal_life",
-      "hit": 1
+      "crit": 2,
+      "haste": 2
     },
     {
       "id": 233992,
@@ -49273,26 +49150,24 @@ var gear = {
       "d": 11
     },
     {
-      "id": 233994,
+      "id": 234178,
       "type": "Miscellaneous",
       "slot": "trinket",
       "r": 60,
       "q": "4",
-      "i": "80",
-      "name": "Ruby-Encrusted Broach",
-      "p": "inv_jewelry_necklace_15",
-      "crit": 1
+      "i": "66",
+      "name": "Darkmoon Card: Maelstrom",
+      "p": "inv_misc_ticket_tarot_maelstrom_01"
     },
     {
-      "id": 234779,
+      "id": 234462,
       "type": "Miscellaneous",
       "slot": "trinket",
       "r": 0,
       "q": "4",
-      "i": "70",
-      "name": "Grace of Earth",
-      "p": "inv_misc_herb_02",
-      "hit": 2
+      "i": "75",
+      "name": "Earthstrike",
+      "p": "spell_nature_abolishmagic"
     }
   ],
   "ranged": [

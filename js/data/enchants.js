@@ -1431,5 +1431,15 @@ var enchant = {
   ]
 },
 
+{
+  id: 1856,
+  name: 'Conqueror\'s Advance',
+  items: [233653,233658,233651,233654,233652],
+  bonus: [
+    { count: 2, stats: { deathwishcd: true } },
+    { count: 4, stats: { bleedbonus: true } },
+  ]
+},
+
 
 ];
