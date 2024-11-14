@@ -394,7 +394,6 @@ var buffs = [
       str: 74,
       agi: 74,
       minlevel: 60,
-      aq: false,
       sod: true,
    },
    {
