@@ -16418,6 +16418,10 @@ var gear = {
       "agi": 21,
       "str": 15,
       "sta": 30,
+      "resist": {
+        "nature": 15
+      },
+      "d": 8,
       "tw": true
     },
     {
@@ -48961,9 +48965,9 @@ var gear = {
       "q": "4",
       "i": "79",
       "name": "Huhuran's Stinger",
-      "speed": 3.3,
-      "mindmg": 109,
-      "maxdmg": 203,
+      "speed": 3.4,
+      "mindmg": 112,
+      "maxdmg": 209,
       "p": "inv_weapon_bow_14",
       "agi": 18
     },
@@ -49024,9 +49028,9 @@ var gear = {
       "q": "4",
       "i": "75",
       "name": "Silithid Husked Launcher",
-      "speed": 3.5,
-      "mindmg": 107,
-      "maxdmg": 200,
+      "speed": 3,
+      "mindmg": 92,
+      "maxdmg": 172,
       "p": "inv_weapon_rifle_10",
       "agi": 7,
       "sta": 10,
