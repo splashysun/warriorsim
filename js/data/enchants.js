@@ -1450,5 +1450,15 @@ var enchant = {
   ]
 },
 
+{
+  id: 1866,
+  name: 'Battlegear of Unyielding Strength',
+  items: [233442,233441,233443,235005],
+  bonus: [
+    { count: 3, stats: { shockwavecd: true } },
+  ]
+},
+
+
 
 ];

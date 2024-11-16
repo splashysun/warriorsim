@@ -542,6 +542,7 @@ class Player {
                     if (bonus.stats.whirlwindcost) this.whirlwindcost = bonus.stats.whirlwindcost;
                     if (bonus.stats.deathwishcd) this.deathwishcd = bonus.stats.deathwishcd;
                     if (bonus.stats.bleedbonus) this.bleedbonus = bonus.stats.bleedbonus;
+                    if (bonus.stats.shockwavecd) this.shockwavecd = bonus.stats.shockwavecd;
                 }
             }
         }

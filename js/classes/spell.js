@@ -699,7 +699,7 @@ class Shockwave extends Spell {
     constructor(player, id) {
         super(player, id);
         this.cost = 15 - player.ragecostbonus;
-        this.cooldown = 20;
+        this.cooldown = player.shockwavecd ? 10 : 20;
         this.canDodge = false;
     }
     dmg() {

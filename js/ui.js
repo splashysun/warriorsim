@@ -1028,6 +1028,7 @@ SIM.UI = {
 
         let _sources = !storage.sources ? session.sources : storage.sources;
         let _phases = !storage.phases ? session.phases : storage.phases;
+        if (mode == "sod") _phases = ["1","2","3","4","5"];
 
         for (let i of _sources)
             view.filter.find(`.sources [data-id="${i}"]`).addClass('active');
