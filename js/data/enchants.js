@@ -700,6 +700,19 @@ var enchant = {
      }
    ],
    "chest": [
+      {
+        "id": 1213616,
+        "spellid": true,
+        "name": "Living Stats",
+        "agi": 4,
+        "str": 4,
+        "phase": 5,
+        "r": 60,
+        "ench": "7645",
+        "resist": {
+          "nature": 15,
+        },
+      },
      {
        "id": 20025,
        "spellid": true,
