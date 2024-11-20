@@ -48,32 +48,32 @@ SIM.PROFILES = {
             view.textarea.focus();
         });
 
-        view.presets.on('click','.import-th', function (e) {
+        view.presets.on('click','.import-thbwl', function (e) {
             e.preventDefault();
             e.stopPropagation();
             let index = view.container.find('.profile').last().data('index') + 1;
-            view.importProfile(preset_th, index);
+            view.importProfile(preset_thbwl, index);
         });
 
-        view.presets.on('click','.import-dw', function (e) {
+        view.presets.on('click','.import-dwbwl', function (e) {
             e.preventDefault();
             e.stopPropagation();
             let index = view.container.find('.profile').last().data('index') + 1;
-            view.importProfile(preset_dw, index);
+            view.importProfile(preset_dwbwl, index);
         });
 
-        view.presets.on('click','.import-thmc', function (e) {
+        view.presets.on('click','.import-thaq', function (e) {
             e.preventDefault();
             e.stopPropagation();
             let index = view.container.find('.profile').last().data('index') + 1;
-            view.importProfile(preset_thmc, index);
+            view.importProfile(preset_thaq, index);
         });
 
-        view.presets.on('click','.import-dwmc', function (e) {
+        view.presets.on('click','.import-dwaq', function (e) {
             e.preventDefault();
             e.stopPropagation();
             let index = view.container.find('.profile').last().data('index') + 1;
-            view.importProfile(preset_dwmc, index);
+            view.importProfile(preset_dwaq, index);
         });
 
         // view.presets.on('click','.import-fr', function (e) {
@@ -232,10 +232,10 @@ SIM.PROFILES = {
             view.presets.empty();
             view.presets.append(`
                 <label>Presets:</label>
-                <div class="import-th">P5 2H Fury</div>
-                <div class="import-dw">P5 DW Fury</div>
-                <div class="import-thmc">Pre-BWL 2H Fury</div>
-                <div class="import-dwmc">Pre-BWL DW Fury</div>`);
+                <div class="import-thaq">P6 2H BiS</div>
+                <div class="import-dwaq">P6 DW BiS</div>
+                <div class="import-thbwl">P5 2H BiS</div>
+                <div class="import-dwbwl">P6 DW BiS</div>`);
         }
             
         },
