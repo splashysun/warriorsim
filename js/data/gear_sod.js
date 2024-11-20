@@ -58699,6 +58699,7 @@ var gear = {
       "sta": 11,
       "hit": 1,
       "proc": {
+        "chance": 5,
         "magic": true,
         "dmg": 413
       },
@@ -58801,6 +58802,7 @@ var gear = {
       "sta": 10,
       "crit": 1,
       "proc": {
+        "chance": 5,
         "magic": true,
         "dmg": 413
       }
@@ -69862,6 +69864,7 @@ var gear = {
       "sta": 10,
       "crit": 1,
       "proc": {
+        "chance": 5,
         "magic": true,
         "dmg": 413
       }
@@ -77864,6 +77867,7 @@ var gear = {
       "maxdmg": 176,
       "p": "inv_sword_39",
       "proc": {
+        "chance": 5,
         "magic": true,
         "dmg": 413
       }
@@ -77883,6 +77887,7 @@ var gear = {
       "str": 40,
       "sta": 30,
       "proc": {
+        "chance": 5,
         "magic": true,
         "dmg": 413
       }
@@ -77901,6 +77906,7 @@ var gear = {
       "p": "inv_hammer_25",
       "str": 40,
       "proc": {
+        "chance": 5,
         "magic": true,
         "dmg": 413
       }
