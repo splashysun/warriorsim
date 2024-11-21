@@ -8291,7 +8291,7 @@ Each strike has a $h% chance of poisoning the enemy, slowing their movement spee
 11213,Rank 1,Gives you a $h% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by $/10;12536s1%.,
 11222,Rank 1,Reduces the chance that the opponent can resist your Arcane spells by $s1%.,
 11232,Rank 1,Increases your maximum Mana by $s1%.,
-11237,Rank 1,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast][].",
+11237,Rank 1,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast or Spellfrost Bolt][].",
 11242,Rank 1,Increases the critical strike chance of your Arcane Explosion spell by an additional $s1%.,
 11247,Rank 1,Increases the effect of your Amplify Magic and Dampen Magic spells by $s1%.,
 11252,Rank 1,Decreases the mana lost per point of damage taken when Mana Shield is active by $s1%.,
@@ -9148,8 +9148,8 @@ Time between attacks increased by $s2%."
 12459,,Attaches a permanent scope to a bow or gun that increases its damage by 5.,
 12460,,Attaches a permanent scope to a bow or gun that increases its damage by 7.,
 12461,,"Inflicts normal damage plus $s2 to an enemy, stunning it for $d.",Stunned.
-12463,Rank 2,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast][].",
-12464,Rank 3,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast][].",
+12463,Rank 2,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast or Spellfrost Bolt][].",
+12464,Rank 3,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast or Spellfrost Bolt][].",
 12466,,Inflicts Fire damage to an enemy.,
 12467,Rank 2,Increases the critical strike chance of your Arcane Explosion spell by an additional $s1%.,
 12468,,"Calls down a pillar of flame, burning all enemies in a selected area and inflicting additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
@@ -12320,8 +12320,8 @@ Melee damage taken is reduced by $s1%."
 16766,Rank 5,Reduces the casting time of your Frostbolt spell by $/1000;S1 sec.,
 16767,Rank 1,"Fire at an X, Y, Z location with a ranged weapon.  Each location needs a separate copy of this spell.",
 16768,Rank 1,"Fire at an X, Y, Z location with a ranged weapon.  Each location needs a separate copy of this spell.",
-16769,Rank 4,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast][].",
-16770,Rank 5,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast][].",
+16769,Rank 4,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast or Spellfrost Bolt][].",
+16770,Rank 5,"Gives you a $s1% chance to avoid interruption caused by damage while channeling Arcane Missiles$?s442543[, Regeneration, or Mass Regeneration, and a $s2% chance to avoid interruption caused by damage while casting Arcane Blast or Spellfrost Bolt][].",
 16771,,,
 16772,Rank 1,"Fire at an X, Y, Z location with a ranged weapon.  Each location needs a separate copy of this spell.",
 16775,Rank 1,"Fire at an X, Y, Z location with a ranged weapon.  Each location needs a separate copy of this spell.",
@@ -22798,7 +22798,7 @@ Cooldown shared with Kidney Shot.",Stunned.
    3 points: 22 seconds
    4 points: 26 seconds
    5 points: 30 seconds",Parry chance increased by $w2%. $?$w3<0[ Physical damage taken reduced by $w3%.][]
-400014,,"You take $s1% reduced Physical damage while Blade Dance is active. Additionally, you have $s3% reduced chance to be critically hit by melee attacks, you deal $s10% less damage, the threat generated by all your actions is massively increased, and your Feint ability is replaced with Tease, which Taunts the target to attack you.
+400014,,"You take $s1% reduced Physical damage while Blade Dance is active, reduced by an additional 1% for every $s12 of your Defense skill beyond ${$PL*5}. Additionally, your chance to Dodge is multiplied by $s11%, you have $s3% reduced chance to be critically hit by melee attacks, you deal $s10% less damage, the threat generated by all your actions is massively increased, and your Feint ability is replaced with Tease, which Taunts the target to attack you.
 
 $@spellicon410412
 $@spelldesc410412",
@@ -23597,7 +23597,7 @@ This ability's Seal and Judgement benefit from talents and effects that modify t
 Hitting a target with Mangle (Bear) also grants you $460171s1 Attack Power for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.",All Bleed effects and Shred cause $s3% additional damage.
 408013,,,
 408014,,,
-408024,,"When activated, this grants you $408025s1% of your maximum health and increases all non-Physical healing you deal by $s1% for $d. After the effect expires, the health is lost. Useable in any form.
+408024,,"When activated, this grants you $408025s1% of your maximum health and increases all non-Physical healing you deal by $s1% for $d. After the effect expires, the health is lost. Useable in all forms except Moonkin Form.
 
 In addition, you regenerate $417051s2 rage every time you dodge while in Bear Form or Dire Bear Form, $417051s3 energy while in Cat Form, or $417051s4% of your maximum mana while in any other form.",Health increased by $408025s1% of maximum.
 408025,,,
@@ -23612,7 +23612,7 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 408248,,"Starfire increases the critical strike chance of your next two Wraths by $s1%, and Wrath reduces the cast time of your next Starfire by ${$408255m1/-1000}.1 sec, both effects stacking up to $408250u charges. Both spells also gain $s3% chance at all times to not lose casting time when you take damage.",
 408250,,Increased critical strike chance on Wrath.,Your next $m2 Wrath casts have ${$m1/$m2}% increased critical strike chance.
 408255,,,Your next $m2 Starfire $Lcast has:casts have; ${$m1/$m2/-1000}.1  sec reduced cast time.
-408258,,Your damaging non-periodic spell critical strikes or any damage from Starsurge grant you $408261s1% of your mana regeneration while casting for $408261d and increase Arcane and Nature damage dealt to the target by $437132s2% for $437132d.,
+408258,,Your damaging non-periodic spell critical strikes or any damage from Starsurge grant you $408261s1% of your mana regeneration while casting for $408261d and increase Arcane and Nature damage dealt to non-player targets by $437132s2% for $437132d.,
 408261,,Allows $s1% of your Mana regeneration to continue while casting.,Regenerating $s1% of your normal Mana regeneration while casting spells.
 408307,,Increases your healing power by $s2% of your Nature spell damage for $d.,Healing power increased by $w2.
 408309,,Increases your spell damage by $s2% of the difference between your healing power and spell damage. Lasts $d.,Spell damage increased by $w2.
@@ -26263,7 +26263,7 @@ Master's critical strike chance increased by $425463s2%."
 431372,,Teaches you how to make a Soul Vessel.,
 431384,,,
 431388,,"Your Barkskin can now be cast on allies, no longer penalizes melee combat speed or spellcasting time, and can be cast while shapeshifted.",
-431389,,"Your Frenzied Regeneration can now be used in all forms or while not shapeshifted. It now converts your active resource into health every second for $428708d. Up to $428708s1 Rage, $428708s2 Energy, or $428708s3% base Mana is converted per second into up to $428708s4% health.
+431389,,"Your Frenzied Regeneration can now be used in all forms except Moonkin Form or while not shapeshifted. It now converts your active resource into health every second for $428708d. Up to $428708s1 Rage, $428708s2 Energy, or $428708s3% base Mana is converted per second into up to $428708s4% health.
 ",
 431446,,"Gain the Gore ability:
 
@@ -30926,7 +30926,9 @@ Reduced movement speed."
 470358,,Teaches you how to cook Darkclaw Bisque.,
 470359,,,
 470361,,Increases Spell Damage by $s1 for $d.,Spell Damage increased by $s1.
+470362,,Restores $o1 health over $d.  Must remain seated while eating.  If you eat for 10 seconds will also increase your Spell Damage by $470361s1 for $470361d1.,Restores $/5;s1 health per second.
 470367,,Increases Healing done by $s1 for $d.,Healing done increased by $s1.
+470369,,Restores $o1 health over $d.  Must remain seated while eating.  If you eat for 10 seconds will also increase your Healing done by $470367s1 for $470367d1.,Restores $/5;s1 health per second.
 470370,,,
 470396,,Teaches you how to cook Smoked Redgill.,
 470451,,,
@@ -31017,7 +31019,7 @@ Reduced movement speed."
 473687,,,"While an argent squire is present in your party or raid, killing silithids in Hive'Ashi, Hive'Regal, and Hive'Zora grants reputation with the Argent Dawn."
 473698,,,
 473701,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
-473702,,Use the manual to call your Argent Squire for a training lesson in combat with the Silithid. Silithids killed in the squire's presence will increase your reputation with the Argent Dawn.,Your squire is accompanying you. Gaining Argent Dawn reputation for killing Silithids.
+473702,,Use the branch to call an Ancient of War to assist you in fighting Silithids.,
 473847,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,
 473848,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 473849,,,
@@ -31180,7 +31182,7 @@ Time between attacks increased by $s2%."
 1213412,,,
 1213413,,"Shield of the Righteous causes your next Holy Light to be instant cast. If cast on self, it will refund $s1% of its mana cost and be unaffected by Guarded by the Light.",
 1213414,,,
-1213415,,,Your next Holy Light is instant. If cast on self it will refund 1213413s1% of its mana cost and be unaffected by Guarded by the Light.
+1213415,,,Your next Holy Light is instant. If cast on self it will refund $1213413s1% of its mana cost and be unaffected by Guarded by the Light.
 1213417,,Chance to strike your melee target with lightning for $1213418s1 Nature damage.,
 1213418,,Lightning Strike for $s1 Nature damage.,
 1213419,,Sometimes heals bearer of $1213420s1 damage when damaging an enemy in melee.,
@@ -31316,7 +31318,7 @@ Movement speed reduced by $s2%."
 1213710,,Teaches you how to make an Ironvine Belt.,
 1213711,,,
 1213712,,Teaches you how to make Ironvine Gloves.,
-1213713,,Increases Saber Slash damage by $s1%.,
+1213713,,Increases Sinister Strike and Saber Slash damage by $s1%.,
 1213714,,Reduces the cooldown on Adrenaline Rush by ${$m1/-60000} min.,
 1213715,,,
 1213716,,Teaches you how to make an Ironvine Breastplate,
@@ -31399,7 +31401,7 @@ Nature Resistance increased by $s3."
 1213941,,,
 1213946,,Inflicts $s1 Fire damage in a 5 yard radius.,
 1213955,,Unfolds into a G00 DV-1B3 Generator that can repair damaged items and purchase unwanted goods.  After $d its internal motor fails and it must recover.,
-1213957,,Your Lava Burst deals increased damage equal to its critical strike chance.,
+1213957,,Your Lava burst damage is increased by a percentage equal to your spell critical strike chance.,
 1213963,,When the shield blocks it releases an electrical charge that damages all nearby enemies.,
 1213964,,,
 1213967,,"Charge up the energy within the shield for $d to deal $s1 Nature damage to all nearby enemies.  After use, the shield needs $1213968d to recharge.",Charging up.
@@ -31604,7 +31606,7 @@ Magical resistances of your spell targets reduced by $s2."
 1215377,,Blasts the enemy with acid for $s1 Nature damage.,
 1215378,,Summons and dismisses a rideable Tiger.  This is a very fast mount.,Increases speed by $s2%.
 1215380,,Summons and dismisses a rideable Raptor.  This is a very fast mount.,Increases speed by $s2%.
-1215404,,Increases the effectiveness of your Fire damage spells by $s1% per piece of Timeworn armor equipped.,
+1215404,,"While Metamorphosis or Way of Earth is active, increases the effectiveness of your Fire damage spells by $s1% per piece of Timeworn armor equipped.",
 1215405,,,
 1215420,,,
 1215421,,Deals $s1 Nature damage every $t1 sec.,Deals $s1 Nature damage every $t1 sec.
@@ -31813,6 +31815,11 @@ Cooldowns increased by $/1000;s1 sec."
 1216536,,,
 1216537,,,
 1216566,,,Melee and spell damage dealt increased by $s2%.
+1216968,,When struck in combat has a $h% chance of inflicting $16782s1 Nature damage to the attacker.,
+1216971,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1216997,,Reduces all damage taken from players and their pets by $s2%. This effect cannot be combined from multiple sources.,Reduces all damage taken from players and their pets by $s2%. This effect cannot be combined from multiple sources.
+1217084,,Increases all damage caused against targets in Silithus and Ahn'Qiraj by $s1% and increases critical damage caused against targets in Silithus and Ahn'Qiraj by an additional $s2%.,"Damage against targets in Silithus and Ahn'Qiraj increased by $s1%.
+Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
 1217141,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,
 1217142,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 1217143,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
@@ -31829,3 +31836,16 @@ Cooldowns increased by $/1000;s1 sec."
 1217154,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 1217155,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 1217156,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
+1217189,,Permanently enchant bracers to add up to 12 damage to spells.,
+1217203,,Permanently enchant bracers to increase Agility by 9.,
+1217206,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
+1217207,,,
+1217288,,,
+1217289,,,
+1217297,,Reduces the mana cost of all shapeshifting by $s1%.,
+1217348,,,
+1217350,,,
+1217353,,,
+1217520,,,
+1217545,,,
+1217711,,,

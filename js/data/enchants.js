@@ -772,6 +772,15 @@ var enchant = {
        "ench": "927"
      },
      {
+      "id": 1217203,
+      "spellid": true,
+      "name": "Agility",
+      "agi": 9,
+      "phase": 1,
+      "r": 60,
+      "ench": "7656"
+    },
+     {
        "id": 13661,
        "spellid": true,
        "name": "Strength",

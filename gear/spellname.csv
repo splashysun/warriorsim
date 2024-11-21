@@ -27505,7 +27505,9 @@ ID,Name_lang
 470358,Recipe: Darkclaw Bisque
 470359,Darkclaw Bisque
 470361,Increased Spell Damage
+470362,Food
 470367,Increased Healing Power
+470369,Food
 470370,Smoked Redgill
 470396,Recipe: Smoked Redgill
 470451,Portal Effect: Stormwind
@@ -27575,13 +27577,13 @@ ID,Name_lang
 472900,[DNT] Teleport to BWL GY
 473384,Summon Squire
 473387,Horn of the Dawn
-473399,Songflower Serenade
+473399,Songflower Lullaby
 473403,Blessing of Neptulon
 473441,Might of Blackrock
 473450,Dark Fortune of Damage
 473466,Firewater Cauldron
 473469,Cleansed Firewater
-473476,Spirit of Zandalar
+473476,Dreams of Zandalar
 473477,Songflower Serenade
 473482,Elemental Disjunction
 473493,Explosive Sand Trap
@@ -28351,6 +28353,10 @@ ID,Name_lang
 1216536,[DNT] Teleport to Nightmare Grove Raid Exit (Ashenvale)
 1216537,[DNT] Teleport to Nightmare Grove Raid Exit (Hinterlands)
 1216566,Traces of Silithyst
+1216968,Electrostatic Charge
+1216971,Hybrid Healing/Spell Dam 44/24
+1216997,Unflinching Morale
+1217084,Draught of the Sands
 1217141,Summon Flawless Yellow Qiraji Battle Tank
 1217142,Summon Flawless Yellow Qiraji Battle Tank
 1217143,Summon Flawless Yellow Qiraji Battle Tank
@@ -28367,3 +28373,16 @@ ID,Name_lang
 1217154,Summon Flawless Red Qiraji Battle Tank
 1217155,Summon Flawless Red Qiraji Battle Tank
 1217156,Summon Flawless Red Qiraji Battle Tank
+1217189,Enchant Bracer - Spell Power
+1217203,Enchant Bracer - Agility
+1217206,Obsidian Scope
+1217207,Obsidian Scope
+1217288,Summon Eye C'thun
+1217289,[DNT] Blinding Admiration
+1217297,Trance Stone
+1217348,[DNT] Dummy Aura
+1217350,Warlock Pet Healup [DNT]
+1217353,Hunter Pet Healup [DNT]
+1217520,Firewater Cauldron
+1217545,Firewater Cauldron
+1217711,Just a Flesh Wound

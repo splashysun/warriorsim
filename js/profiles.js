@@ -235,7 +235,7 @@ SIM.PROFILES = {
                 <div class="import-thaq">P6 2H BiS</div>
                 <div class="import-dwaq">P6 DW BiS</div>
                 <div class="import-thbwl">P5 2H BiS</div>
-                <div class="import-dwbwl">P6 DW BiS</div>`);
+                <div class="import-dwbwl">P5 DW BiS</div>`);
         }
             
         },
