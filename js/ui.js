@@ -971,8 +971,8 @@ SIM.UI = {
         if (!localStorage[mode + profileid]) localStorage[mode + profileid] = JSON.stringify(session);
 
         // update everyone for P4
-        if (mode == "sod" && localStorage.sodPatch !== "4") {
-            localStorage.sodPatch = "4";
+        if (mode == "sod" && localStorage.sodPatch !== "6") {
+            localStorage.sodPatch = "6";
             localStorage.sod0 = JSON.stringify(session);
         }
 
