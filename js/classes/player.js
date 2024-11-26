@@ -1591,10 +1591,10 @@ class Player {
                 /* start-log */ if (this.logging) this.log(`Hakkari set extra attack proc`); /* end-log */
             }
             // Timeworn extra
-            // wtf is a soft extra
-            if (!spell && this.timeworn && !damageSoFar && this.timewornstep != step && rng10k() < this.timeworn * 100) {
+            if (this.timeworn && !damageSoFar && this.timewornstep != step && rng10k() < this.timeworn * 100) {
                 this.timewornstep = step;
-                extras++;
+                if (spell) this.extraattacks++;
+                else extras++;
                 /* start-log */ if (this.logging) this.log(`Timeworn proc`); /* end-log */
             }
             // Obsidian Champion
