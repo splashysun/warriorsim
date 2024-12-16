@@ -44570,6 +44570,19 @@ var gear = {
       "hit": 1
     },
     {
+      "id": 234035,
+      "type": "Miscellaneous",
+      "slot": "finger",
+      "r": 60,
+      "q": "4",
+      "i": "80",
+      "name": "Signet Ring of the Bronze Dragonflight",
+      "p": "inv_jewelry_ring_40",
+      "str": 13,
+      "sta": 24,
+      "d": 7
+    },
+    {
       "id": 234083,
       "type": "Miscellaneous",
       "slot": "finger",
@@ -46680,6 +46693,19 @@ var gear = {
       "str": 24,
       "sta": 13,
       "hit": 1
+    },
+    {
+      "id": 234035,
+      "type": "Miscellaneous",
+      "slot": "finger",
+      "r": 60,
+      "q": "4",
+      "i": "80",
+      "name": "Signet Ring of the Bronze Dragonflight",
+      "p": "inv_jewelry_ring_40",
+      "str": 13,
+      "sta": 24,
+      "d": 7
     },
     {
       "id": 234083,

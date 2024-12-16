@@ -313,6 +313,8 @@
           if (obj.id == 234462) include = true;
           if (obj.id == 234202) include = true;
           if (obj.id == 234034) include = true;
+          if (obj.id == 234035) include = true;
+          
           
           
 
@@ -798,6 +800,7 @@
           if (obj.name == gear[slot][i].name && obj.id > gear[slot][i].id && obj.id > 100000 && obj.r != 25) { 
             if (obj.id == 224409) return;
             if (gear[slot][i].id == 234034) return; // bronze dragonflight
+            if (gear[slot][i].id == 234035) return; // bronze dragonflight
             if (gear[slot][i].id >= 231031 && gear[slot][i].id <= 231038) return; // draconic wrath
             if (gear[slot][i].id >= 231023 && gear[slot][i].id <= 231030) return; // draconic wrath
             if ([19951,19577,19824,19823,19822].includes(gear[slot][i].id)) return; // Vindicator's Battlegear

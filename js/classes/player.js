@@ -60,6 +60,7 @@ class Player {
         this.target.binaryresist = this.getTargetSpellBinaryResist();
         this.target.dodge = 0;
         this.timeworn = 0;
+        this.dodgetimeworn = 0;
         this.base = {
             ap: 0,
             agi: 0,
@@ -315,7 +316,10 @@ class Player {
                     if (item.id == 228122)
                         this.spells.themoltencore = new TheMoltenCore(this);
 
-                    if (item.tw) this.timeworn++;
+                    if (item.tw) {
+                        this.timeworn++;
+                        this.dodgetimeworn++;
+                    }
 
                     this.items.push(item.id);
                 }
@@ -644,6 +648,9 @@ class Player {
         // timeworn
         if (!this.items.includes(234034) && !this.items.includes(234202)) {
             this.timeworn = 0;
+        }
+        if (!this.items.includes(234035)) {
+            this.dodgetimeworn = 0;
         }
     }
     addSpells(testItem) {
@@ -1006,7 +1013,7 @@ class Player {
         return Math.max(crit, 0);
     }
     getDodgeChance(weapon) {
-        return Math.max(5 - this.stats.expertise - this.target.dodge + (this.target.defense - this.stats['skill_' + weapon.type]) * 0.1, 0);
+        return Math.max(5 - this.stats.expertise - this.dodgetimeworn - this.target.dodge + (this.target.defense - this.stats['skill_' + weapon.type]) * 0.1, 0);
     }
     getArmorReduction() {
         if (isNaN(this.target.armor)) this.target.armor = 0;
